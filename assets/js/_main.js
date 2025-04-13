@@ -55,7 +55,7 @@ $(document).ready(function() {
 
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
-    offset: 0,
+    offset: 20,
     speed: 400,
     speedAsDuration: true,
     durationMax: 500
@@ -73,9 +73,7 @@ $(document).ready(function() {
       nestedClass: "active", // applied to the parent items
 
       // Offset & reflow
-      // if you change this offset, You must consider the variable 'top_offset' in my javascript code,
-      //    section '[2] Auto Scroll' at /assets/js/custom.js.
-      offset: window.innerHeight * 0.27, // how far from the top of the page to activate a content area
+      offset: 20, // how far from the top of the page to activate a content area
       reflow: true, // if true, listen for reflows
 
       // Event support
@@ -85,57 +83,53 @@ $(document).ready(function() {
 
   // add lightbox class to all image links
   $(
-    "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']"
-  ).addClass("img-popup");
-  // ).addClass("image-popup");
+    "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']"
+  ).has("> img").addClass("image-popup");
 
   // Magnific-Popup options
-  // $(".image-popup").magnificPopup({
-  //   // disableOn: function() {
-  //   //   if( $(window).width() < 500 ) {
-  //   //     return false;
-  //   //   }
-  //   //   return true;
-  //   // },
-  //   type: "image",
-  //   tLoading: "Loading image #%curr%...",
-  //   gallery: {
-  //     enabled: true,
-  //     navigateByImgClick: true,
-  //     preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-  //   },
-  //   image: {
-  //     tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
-  //   },
-  //   removalDelay: 500, // Delay in milliseconds before popup is removed
-  //   // Class that is added to body when popup is open.
-  //   // make it unique to apply your CSS animations just to this exact popup
-  //   mainClass: "mfp-zoom-in",
-  //   callbacks: {
-  //     beforeOpen: function() {
-  //       // just a hack that adds mfp-anim class to markup
-  //       this.st.image.markup = this.st.image.markup.replace(
-  //         "mfp-figure",
-  //         "mfp-figure mfp-with-anim"
-  //       );
-  //     }
-  //   },
-  //   closeOnContentClick: true,
-  //   midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-  // });
+  $(".image-popup").magnificPopup({
+    // disableOn: function() {
+    //   if( $(window).width() < 500 ) {
+    //     return false;
+    //   }
+    //   return true;
+    // },
+    type: "image",
+    tLoading: "Loading image #%curr%...",
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
+    },
+    removalDelay: 500, // Delay in milliseconds before popup is removed
+    // Class that is added to body when popup is open.
+    // make it unique to apply your CSS animations just to this exact popup
+    mainClass: "mfp-zoom-in",
+    callbacks: {
+      beforeOpen: function() {
+        // just a hack that adds mfp-anim class to markup
+        this.st.image.markup = this.st.image.markup.replace(
+          "mfp-figure",
+          "mfp-figure mfp-with-anim"
+        );
+      }
+    },
+    closeOnContentClick: true,
+    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+  });
 
   // Add anchors for headings
   $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function() {
     var id = $(this).attr('id');
     if (id) {
       var anchor = document.createElement("a");
-      var addr = location.origin + location.pathname + '#' + id;
       anchor.className = 'header-link';
       anchor.href = '#' + id;
-      // sammy baek custom
-      anchor.innerHTML = `<span class=\"sr-only\">${addr}</span><i class=\"fas fa-link\"></i>`;
-      anchor.title = 'Copy this URL'
-      anchor.setAttribute('data-clipboard-text', addr);
+      anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas fa-link\"></i>';
+      anchor.title = "Permalink";
       $(this).append(anchor);
     }
   });

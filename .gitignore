@@ -27,12 +27,3 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
-
-# Files
-*.pptx
-
-# Editors
-.vscode/
-
-# Test & Temp
-tmp/

@@ -2,99 +2,21 @@
 layout: archive
 ---
 
-{{ content }} {% comment %} {% include ads/google/on_the_paginator.html %} {%
-endcomment %}
+{{ content }}
 
-<h2 class="archive__subtitle" id="recent-posts">
-  {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
-</h2>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-<div class="recent-posts-wrapper">
-  <ul class="recent-posts__opt-list">
-    <li class="recent-posts__opt-row">
-      <div class="recent-posts__opt sort">
-        <button><i class="fas fa-sort-amount-down"></i> 정렬</button>
-        <ul
-          class="recent-posts__opt sort-dropdown"
-          data-current-sort-key="sortLastPulished"
-        >
-          <li class="dropdown-row">
-            <input
-              type="radio"
-              name="sort-type"
-              id="sortLastPulished"
-              value="lastPublished"
-              checked
-            />
-            <label class="sort-opt-radio" for="sortLastPulished"
-              >최근 출간일</label
-            >
-          </li>
-          <li class="dropdown-row">
-            <input
-              type="radio"
-              name="sort-type"
-              id="sortInitialPublished"
-              value="initialPublished"
-            />
-            <label class="sort-opt-radio" for="sortInitialPublished"
-              >최초 출간일</label
-            >
-          </li>
-          <li class="dropdown-row">
-            <input
-              type="radio"
-              name="sort-type"
-              id="sortLastModified"
-              value="lastModified"
-            />
-            <label class="sort-opt-radio" for="sortLastModified"
-              >최근 수정일</label
-            >
-          </li>
-          <li class="dropdown-row">
-            <input
-              type="radio"
-              name="sort-type"
-              id="sortInitialModified"
-              value="initialModified"
-            />
-            <label class="sort-opt-radio" for="sortInitialModified"
-              >최초 수정일</label
-            >
-          </li>
-        </ul>
-      </div>
-    </li>
-  </ul>
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
-  <!-- Only bigger than tablet size -->
-  <div class="pagination pagination-top paginator-area">
-    <nav id="site-paginator-top" class="site-paginator"></nav>
-    <div class="paginator-support">
-      <div class="paginationjs-go-input"><input type="text" /></div>
-      <div class="paginationjs-go-button">
-        <input type="button" value="Go" />
-      </div>
-    </div>
-  </div>
-
-  <div id="site-pagination-list" class=".entries-list"></div>
-
-  <!-- Only smaller than tablet size -->
-  <div class="pagination pagination-bottom paginator-area">
-    <nav id="site-paginator-bottom" class="site-paginator"></nav>
-    <div class="paginator-support">
-      <div class="paginationjs-go-input"><input type="text" /></div>
-      <div class="paginationjs-go-button">
-        <input type="button" value="Go" />
-      </div>
-    </div>
-  </div>
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
 </div>
 
-<table id="site-paginator__ad-boxes">
-  <tr>
-    <td class="ad-box">{% include ads/google/under_the_paginator.html %}</td>
-  </tr>
-</table>
+{% include paginator.html %}
