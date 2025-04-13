@@ -46,11 +46,11 @@ main:
 #         url: /categories/#MFC
 
 sidebar-category:
-  - title: "프로그래밍"
+  - title: "Simulation"
     children:
-      - title: "C"
-        url: "/C"
-        category: "C"
+      - title: "180nm MOSFET"
+        url: "/180nm_mosfet"
+        category: "180nm MOSFET"
 
       - title: "C_OpenGL"
         url: "/C_OpenGL"

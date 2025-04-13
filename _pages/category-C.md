@@ -1,7 +1,7 @@
 ---
-title: "C"
+title: "180nm MOSFET"
 layout: archive
-permalink: /C
+permalink: /180nm_mosfet
 ---
 
 
