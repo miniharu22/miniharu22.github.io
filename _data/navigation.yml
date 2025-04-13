@@ -46,6 +46,12 @@ main:
 #         url: /categories/#MFC
 
 sidebar-category:
+  - title: "Physics & Device"
+    children:
+      - title: "PN Junction"
+        url: "pn_junction"
+        category: "PN Junction"
+
   - title: "Device Simulation"
     children:
       - title: "180nm MOSFET"
@@ -72,6 +78,7 @@ sidebar-category:
         url:  "/40nm_igzo_2t0c_vcat"
         category: "40nm IGZO 2T0C VCAT"
 
+
   - title: "Project"
     children:
       - title: "Row Hammer Effect Mitigation"
@@ -89,3 +96,8 @@ sidebar-category:
       - title: "2T0C VCAT Opitmiztion"
         url: "/2t0c_vcat_opitmiztion"
         category: "2T0C VCAT Opitmiztion"
+
+
+  - title: "Data Engineering"
+
+  - title: "Paper Review"
