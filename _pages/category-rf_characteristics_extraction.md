@@ -1,7 +1,7 @@
 ---
-title: "Free_Board"
+title: "RF Characteristics Extraction"
 layout: archive
-permalink: /Free_Board
+permalink: /rf_characteristics_extraction
 ---
 
 

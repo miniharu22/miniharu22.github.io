@@ -46,7 +46,7 @@ main:
 #         url: /categories/#MFC
 
 sidebar-category:
-  - title: "Simulation"
+  - title: "Device Simulation"
     children:
       - title: "180nm MOSFET"
         url: "/180nm_mosfet"
@@ -72,20 +72,20 @@ sidebar-category:
         url:  "/40nm_igzo_2t0c_vcat"
         category: "40nm IGZO 2T0C VCAT"
 
-  - title: "안 프로그래밍"
+  - title: "Project"
     children:
-      - title: "Development_Note"
-        url: "/Development_Note"
-        category: "Development_Note"
+      - title: "Row Hammer Effect Mitigation"
+        url: "/row_hammer_effect_mitigation"
+        category: "Row Hammer Effect Mitigation"
 
-      - title: "Free_Board"
-        url: "/Free_Board"
-        category: "Free_Board"
+      - title: "RF Characteristics Extraction"
+        url: "/rf_characteristics_extraction"
+        category: "RF Characteristics Extraction"
 
-      - title: "UnrealEngine"
-        url: "/UnrealEngine"
-        category: "UnrealEngine"
+      - title: "Local Bottom Isolation"
+        url: "/local_bottom_isolation"
+        category: "Local Bottom Isolation"
 
-      - title: "HTML"
-        url: "/HTML"
-        category: "HTML"
+      - title: "Enhancing Retention in 2T0C VCAT"
+        url: "/enhancing_Retention_in_2t0c_vcat"
+        category: "Enhancing Retention in 2T0C VCAT"

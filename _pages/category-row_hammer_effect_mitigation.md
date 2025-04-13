@@ -1,7 +1,7 @@
 ---
-title: "Development_Note"
+title: "Row Hammer Effect Mitigation"
 layout: archive
-permalink: /Development_Note
+permalink: /row_hammer_effect_mitigation
 ---
 
 
