@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Welcome to My Tech Blog!"
+title                    : "Semiconductor Technology Research"
 title_separator          : "|"
 subtitle                 : "Since 2023" # site tagline that appears below site title in masthead
 name                     : "Lee SangMin"
-description              : "Semiconductor Technology Research Bolg"
+description              : 
 url                      : "https://miniharu22.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lee SangMin"
+  name             : "Welcome to My Blog!"
   avatar           : "/assets/images/myface.jpg"
   bio              : " "
   location         : "Seoul, Republic of korea"
