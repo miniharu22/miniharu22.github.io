@@ -6,3 +6,13 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+
+
+main-sidebar:
+  - title: 'Simulation'
+    url: '/simulation/'
+    children:
+      - title: '180nm MOSFET'
+        url: '/simulation/180nm_mosfet/'
+      - title: '22nm FinFET'
+        url: '/simulation/22nm_finfet/'
