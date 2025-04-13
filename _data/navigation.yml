@@ -60,25 +60,17 @@ sidebar-category:
         url:  "/5nm_nanosheet_fet "
         category: "5nm Nanosheet FET"
 
-      - title: "Cpp_OpenCV"
-        url:  "/Cpp_OpenCV"
-        category: "Cpp_OpenCV"
+      - title: "5nm Forksheet FET"
+        url:  "/5nm_forksheet_fet"
+        category: "5nm Forksheet FET"
 
-      - title: "MFC"
-        url:  "/MFC"
-        category: "MFC"
+      - title: "20nm BCAT"
+        url:  "/20nm_bcat"
+        category: "20nm BCAT"
 
-      - title: "Python_OpenCV"
-        url:  "/Python_OpenCV"
-        category: "Python_OpenCV"
-
-      - title: "JAVA"
-        url:  "/JAVA"
-        category: "JAVA"
-
-      - title: "Visual_Basic"
-        url:  "/Visual_Basic"
-        category: "Visual_Basic"
+      - title: "40nm IGZO 2T0C VCAT"
+        url:  "/40nm_igzo_2t0c_vcat"
+        category: "40nm IGZO 2T0C VCAT"
 
   - title: "안 프로그래밍"
     children:

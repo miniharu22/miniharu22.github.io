@@ -1,9 +1,9 @@
 ---
-title: "JAVA"
+title: "20nm BCAT"
 layout: archive
-permalink: /JAVA
+permalink: /20nm_bcat
 ---
 
 
-{% assign posts = site.categories.JAVA %}
+{% assign posts = site.categories.MFC %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
