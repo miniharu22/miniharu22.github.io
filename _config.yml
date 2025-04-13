@@ -308,18 +308,41 @@ compress_html:
     envs: development
 
 
-# Defaults
 defaults:
+  # default
+  - scope:
+      path: ''
+    values:
+      layout: home
+      author_profile: true
+      sidebar:
+        nav: main-sidebar
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      show_date: true
+      show_header-meta: true
+      read_time: false
+      comments: true
       share: true
       related: true
-      sidebar:                  # 추가한 부분
-        nav: "main-sidebar" # 추가한 부분
+      toc-top: true
+      toc: false
+      toc_sticky: true
+      sidebar:
+        nav: main-sidebar
+      right-widget:
+        toc: true
+      use_kakao-sdk: true
+  # poem in _posts
+  - scope:
+      path: 'writing/poem'
+      type: posts
+    values:
+      title_align-center: true
+      classes: wide
+      toc: false
