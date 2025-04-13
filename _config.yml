@@ -143,7 +143,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url:"https://www.facebook.com/profile.php?id=100017920759425&locale=ko_KR"
+      url: "https://www.facebook.com/profile.php?id=100017920759425&locale=ko_KR"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/miniharu22"
@@ -155,7 +155,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url:"https://www.instagram.com/mini._.haru/"
+      url: "https://www.instagram.com/mini._.haru/"
 
 
 # Reading Files
