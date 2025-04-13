@@ -1,7 +1,7 @@
 ---
-title: "Enhancing Retention in 2T0C VCAT"
+title: "2T0C VCAT Opitmiztion"
 layout: archive
-permalink: /enhancing_Retention_in_2t0c_vcat
+permalink: /2t0c_vcat_opitmiztion
 ---
 
 
