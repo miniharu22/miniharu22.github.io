@@ -52,13 +52,13 @@ sidebar-category:
         url: "/180nm_mosfet"
         category: "180nm MOSFET"
 
-      - title: "C_OpenGL"
-        url: "/C_OpenGL"
-        category: "C_OpenGL"
+      - title: "22nm FinFET"
+        url: "/22nm_finfet"
+        category: "22nm FinFET"
 
-      - title: "Cpp"
-        url:  "/Cpp"
-        category: "Cpp"
+      - title: "5nm Nanosheet FET"
+        url:  "/5nm_nanosheet_fet "
+        category: "5nm Nanosheet FET"
 
       - title: "Cpp_OpenCV"
         url:  "/Cpp_OpenCV"
