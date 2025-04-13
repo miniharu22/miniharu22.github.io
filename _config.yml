@@ -15,17 +15,17 @@
 minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "flowerroot"
+locale                   : "en-US"
+title                    : "Semiconductor Technology Research"
 title_separator          : "|"
-subtitle                 : "SINCE 2022"
-name                     : "KIM YEONGJIN"
-description              : "영진의 블로그 입니다."
-url                      : "https://flowerroot.github.io"
+subtitle                 : "SINCE 2023"
+name                     : "Lee SangMin"
+description              : 
+url                      : "https://miniharu22.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/flowerroot/flowerroot.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/pexels-lisa-fotios-11141868.jpg"
+logo                     : "/assets/images/pixel.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -34,7 +34,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "flowerroot"
+    shortname            : "Miniharu"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -75,7 +75,7 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  : "3482b1de287dfd353e2753928089cec1989ffcd8"
+naver_site_verification  : 
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -96,54 +96,48 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               :  # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-PBB3VQW2Q4"
-    anonymize_ip         : false # true, false (default)
+    tracking_id          : 
+    anonymize_ip         :  # true, false (default)
 
 
 # Site Author
 author:
-  name             : "KIM YEONGJIN"
-  avatar           : "/assets/images/KakaoTalk_20230430_0101073692.jpg"
-  bio              : "안녕하세요 영진의 블로그입니다."
+  name             : "Welcome to My Blog!"
+  avatar           : "/assets/images/myface.jpg"
+  bio              : " "
   location         : "Seoul, Republic of korea"
-  email            : "yeongjin2573@gmail.com"
+  email            : "isangmin219@gmail.com"
   links:
-   #- label: "Email"
-   #  icon: "fas fa-fw fa-envelope-square"
-   #  url: "mailto:yeongjin2573@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://flowerroot.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/EzJjh7EjX4uMBuw"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100003563542832"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/flowerroot"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/flowerroot/?hl=ko"
+     - label: "Website"
+       icon: "fas fa-fw fa-link"
+       url: "https://miniharu22.github.io"
+     - label: "Facebook"
+       icon: "fab fa-fw fa-facebook-square"
+       url: "https://www.facebook.com/profile.php?id=100017920759425&locale=ko_KR"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: "https://github.com/miniharu22"
+     - label: "Instagram"
+       icon: "fab fa-fw fa-instagram"
+       url: "https://www.instagram.com/mini._.haru/"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:yeongjin2573@gmail.com
+      url: isangmin219@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/EzJjh7EjX4uMBuw"
+      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100003563542832"
+      url: "https://www.facebook.com/profile.php?id=100017920759425&locale=ko_KR"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/flowerroot"
+      url: "https://github.com/miniharu22"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -152,7 +146,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/flowerroot/?hl=ko"
+      url: "https://www.instagram.com/mini._.haru/"
 
 
 # Reading Files
