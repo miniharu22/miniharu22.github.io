@@ -1,0 +1,81 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Changi Im
+    - name: Languages
+      value: Korean (Native), English (Fluent), Chinese (Basic)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. in Electronics Engineering
+      institution: Kyungpook National University, Daegu, South Korea
+      year: February 2024
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: Samsung Electronics, System LSI
+      year: March 2024 - Present
+      description:
+        - Working as a software engineer at Audio Solution Group.
+        - title: Summer Intern
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Junior Researcher
+      institution: Max Planck Institute for Biological Cybernetics
+      year: August 2023 - December 2023
+      description:
+        - Description 1.
+        - Description 2.
+
+    - title: Undergraduate Researcher
+      institution: Kyungpook National University.
+      year: April 2021 - August 2022
+
+    - title: Research Intern
+      institution: Electronics and Telecommunications Research Institute (ETRI)
+      year: July 2022 - August 2022
+      description:
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Scenes Understanding.
+    - title: Computer Vision.
+    - title: Signal Processing. 
+    - title: Multimodal Learning. 
+    - title: Hardware-aware Optimization.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Running, Boxing, Drawing, etc.
