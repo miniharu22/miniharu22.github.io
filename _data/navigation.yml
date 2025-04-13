@@ -1,97 +1,18 @@
 # main links
 main:
-  - title: "카테고리"
+  - title: "About Me"
+    url: /about/
+  - title: "Categories"
     url: /categories/
-  - title: "태그"
+  - title: "Tags"
     url: /tags/
-  - title: "검색"
-    url: /search/
- #- title: "About"
- #  url: https://mmistakes.github.io/minimal-mistakes/about/
- #- title: "Sample Posts"
- #  url: /year-archive/
- #- title: "Sample Collections"
- #  url: /collection-archive/
- #- title: "Sitemap"
- #  url: /sitemap/
-    
-# docs:
-#   - title: Category
-#     children:        
-#       - title: "C"
-#         url: /categories/#c
-#       - title: "C++"
-#         url: /categories/#cpp
-#       - title: "JAVA"
-#         url: /categories/#java        
-#       - title: "OpenGL"
-#         url: /categories/#opengl        
-#       - title: "OpenCV-python"
-#         url: /categories/#opencv-python        
-#       - title: "UnrealEngine"
-#         url: /categories/#unrealengine        
-#       - title: "HTML"
-#         url: /categories/#html        
-#       - title: "Development-note"
-#         url: /categories/#development-note        
-#       - title: "anything"
-#         url: /categories/#anything
-#       - title: "Visual-Basic"
-#         url: /categories/#visual-basic
-#       - title: "OpenCV-C++"
-#         url: /categories/#opencv-cpp
-#       - title: "MFC"
-#         url: /categories/#MFC
 
-sidebar-category:
-  - title: "프로그래밍"
+
+main-sidebar:
+  - title: 'Simulation'
+    url: '/simulation/'
     children:
-      - title: "C"
-        url: "/C"
-        category: "C"
-
-      - title: "C_OpenGL"
-        url: "/C_OpenGL"
-        category: "C_OpenGL"
-
-      - title: "Cpp"
-        url:  "/Cpp"
-        category: "Cpp"
-
-      - title: "Cpp_OpenCV"
-        url:  "/Cpp_OpenCV"
-        category: "Cpp_OpenCV"
-
-      - title: "MFC"
-        url:  "/MFC"
-        category: "MFC"
-
-      - title: "Python_OpenCV"
-        url:  "/Python_OpenCV"
-        category: "Python_OpenCV"
-
-      - title: "JAVA"
-        url:  "/JAVA"
-        category: "JAVA"
-
-      - title: "Visual_Basic"
-        url:  "/Visual_Basic"
-        category: "Visual_Basic"
-
-  - title: "안 프로그래밍"
-    children:
-      - title: "Development_Note"
-        url: "/Development_Note"
-        category: "Development_Note"
-
-      - title: "Free_Board"
-        url: "/Free_Board"
-        category: "Free_Board"
-
-      - title: "UnrealEngine"
-        url: "/UnrealEngine"
-        category: "UnrealEngine"
-
-      - title: "HTML"
-        url: "/HTML"
-        category: "HTML"
+      - title: '180nm MOSFET'
+        url: '/simulation/180nm_mosfet/'
+      - title: '22nm FinFET'
+        url: '/simulation/22nm_finfet/'
