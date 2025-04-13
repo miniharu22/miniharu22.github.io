@@ -2,9 +2,6 @@
 *~
 *.sw[p_]
 
-# IntelliJ IDEA
-*.idea
-
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
@@ -30,3 +27,12 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Files
+*.pptx
+
+# Editors
+.vscode/
+
+# Test & Temp
+tmp/
