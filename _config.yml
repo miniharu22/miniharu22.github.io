@@ -11,32 +11,32 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Advanced Semiconductor Research"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Lee Sangmin"
-description              : "Welcome to My Tech Blog!"
+title                    : "Welcome to My Tech Blog!"
+title_separator          : "|"
+subtitle                 : "Since 2023" # site tagline that appears below site title in masthead
+name                     : "Lee SangMin"
+description              : "Semiconductor Technology Research Bolg"
 url                      : "https://miniharu22.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : ""
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/pixel.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Miniharu" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -45,8 +45,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-dark" # "github-light" (default), "github-dark"
-    issue_term           : "pathname" # (default)
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -113,43 +113,40 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lee Sangmin"
+  name             : "Lee SangMin"
   avatar           : "/assets/images/myface.jpg"
-  bio              : "Welcome to My Tech Blog!"
-  #location         : "Somewhere"
-  email            :
+  bio              : "Semiconductor Technology Blog"
+  location         : "Seoul, Republic of korea"
+  email            : "isangmin219@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+     - label: "Website"
+       icon: "fas fa-fw fa-link"
+       url: "https://miniharu22.github.io"
+     - label: "Facebook"
+       icon: "fab fa-fw fa-facebook-square"
+       url: "https://www.facebook.com/profile.php?id=100017920759425&locale=ko_KR"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: "https://github.com/miniharu22"
+     - label: "Instagram"
+       icon: "fab fa-fw fa-instagram"
+       url: "https://www.instagram.com/mini._.haru/"
 
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: isangmin219@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url:"https://www.facebook.com/profile.php?id=100017920759425&locale=ko_KR"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/miniharu22"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -158,7 +155,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url:"https://www.instagram.com/mini._.haru/"
 
 
 # Reading Files
