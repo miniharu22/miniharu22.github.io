@@ -23,7 +23,7 @@ subtitle                 : "Since 2023" # site tagline that appears below site t
 name                     : "Lee SangMin"
 description              : 
 url                      : "https://miniharu22.github.io"
-baseurl                  : ""
+baseurl                  : "https://miniharu22.github.io"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : ""
 logo                     : "/assets/images/pixel.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
