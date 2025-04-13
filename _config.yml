@@ -321,3 +321,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:                  # 추가한 부분
+        nav: "main-sidebar" # 추가한 부분
