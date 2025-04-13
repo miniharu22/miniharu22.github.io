@@ -1,7 +1,7 @@
 ---
-title: "blog"
+title: "simulation"
 layout: archive
-permalink: /blog
+permalink: /simulation
 ---
 
 
