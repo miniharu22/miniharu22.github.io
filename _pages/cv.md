@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: "About Me"
 permalink: /cv/
 title: CV
 nav: true
@@ -9,3 +9,6 @@ description:
 toc:
   sidebar: left
 ---
+
+
+
