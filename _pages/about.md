@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Welcome to my Tech Blog!"
 permalink: /about/
 layout: single
 author_profile: true
