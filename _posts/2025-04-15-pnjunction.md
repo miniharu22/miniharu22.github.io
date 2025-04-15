@@ -13,7 +13,8 @@ Understand qualitatively what happens when a PN Junction is formed.
 ## 1. Charge Density
 #### 1-1. Gauss Law
 
-![](/assets/images/Gauss-Law.jpg){: width="50%" height="50%"}{: .align-center}
+
+<p align="center"><img src="/assets/images/Gauss-Law.jpg" width="50%" height="50%"  title="" alt=""/></p>
 
 When there is one charge on an arbitrary closed surface, The elecrtic flux(Φ) through this surface can represent the electric field($$E$$) as an Integral over the surface.  
 
