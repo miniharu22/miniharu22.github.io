@@ -1,6 +1,6 @@
 ---
 layout : single
-title: "[PN Junction] Charge Density & Charge Neutrality Condition"
+title: "[PN Junction] Charge Density & Charge Neutrality"
 categories: PN_Junction
 tag: PN_Junction
 toc: true
@@ -61,6 +61,7 @@ It is **Carrier** and **Fixed Charge**.
 
 Therfore, in order to calculate the charge density, the concentration of Carrier and Fixed charge must be considered.  
 
+&nbsp;
 
 ## 3. Charge Neutrality
 
