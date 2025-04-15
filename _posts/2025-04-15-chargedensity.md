@@ -8,7 +8,7 @@ toc_sticky: true
 comments: true
 ---
 
-Let's learn about Charge Density and related formulas.
+Qualititave Qualitative Analysis in PN Junction
 
 ## 1. Charge Density
 
