@@ -1,9 +1,10 @@
 ---
-title: 
-permalink: /cv/
+title: "About Me"
+permalink: /about/
 layout: single
 
 ---
+
 # Degree
 > ## Konkuk University
 #### Department of Electrical and Electronic Engineering
@@ -79,27 +80,27 @@ Research Intern
 
 # Skill
 > #### Technical
-▪ TCAD(Synopsys)
-▪ TCL
-▪ Python   
+▪ TCAD(Synopsys)  
+▪ TCL  
+▪ Python    
 ▪ C/C++   
-▪ Spotfire
-▪ Excel
+▪ Spotfire  
+▪ Excel  
 
 > #### Langauge
-▪ Korean (Native)
-▪ English (Fluent)
+▪ Korean (Native)  
+▪ English (Fluent)  
 
 > #### Certificate 
-▪ 6 Sigma - Master Black Belt
-▪ OPIc - Advanced Low
+▪ 6 Sigma - Master Black Belt  
+▪ OPIc - Advanced Low  
 
    
 # Interests
 > #### Research
-▪ Advanced Semiconductor
-▪ Logic Devices
-▪ Memory Devices
-▪ Fabrication Tech
-▪ Material Engineering
+▪ Advanced Semiconductor  
+▪ Logic Devices  
+▪ Memory Devices  
+▪ Fabrication Technology    
+▪ Material Engineering  
 
