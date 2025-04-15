@@ -14,7 +14,7 @@ My Reseach Interests focus on Advanced Semiconductor Technology with Device & Fa
 Based on Passion, Creativity and Teamwork, I have developed my competance as an Engineer.  
 
 
-### If you want to know more about me, please see follwing CV.
+### If you want to know more about me, please see follwing CV.  
 
 # Degree
 > ## Konkuk University
