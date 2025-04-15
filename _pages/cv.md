@@ -6,14 +6,17 @@ layout: single
 ---
 ## 🧑‍🎓 Education
 
-> **Bachelor of Science** 2019.03-2025.02  
-##### Konkuk University  
-Department of Electrical and Electronic Engineering
+> ## Konkuk University
+#### Department of Electrical and Electronic Engineering
+Bachelor of Science  
+2019.03-2025.02  
+  
+
 
 ## 🖥 Experience
 
 > ##### ST Microelectronics
-    > ##### Department of System Design    
+##### Department of System Design    
 MCU Design Engineer 2025.02-Present  
 
 
