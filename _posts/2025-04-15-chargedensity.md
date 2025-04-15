@@ -8,7 +8,7 @@ toc_sticky: true
 comments: true
 ---
 
-Qualititave Qualitative Analysis in PN Junction
+Charge Density, Poisson's Equation, Charge Neutrality, Idealized PN Junction  
 
 ## 1. Charge Density
 
