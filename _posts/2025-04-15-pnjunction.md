@@ -1,8 +1,8 @@
 ---
 layout : single
 title: "Qualitative Analysis of PN Junction"
-categories: [PN Junction]
-tag: [PN Junction]
+categories: PN_Junction
+tag: PN_Junction
 toc: true
 toc_sticky: true
 comments: true
