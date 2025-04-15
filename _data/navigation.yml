@@ -50,6 +50,7 @@ sidebar-category:
     children:
       - title: "PN Junction"
         url: "/categories/pnjunction/
+        category: "PN Junction"
 
   - title: "Device Simulation"
     children:
