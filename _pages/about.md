@@ -104,7 +104,7 @@ Research Intern
 
 > #### Certificate 
 ▪ 6 Sigma - Master Black Belt  
-▪ OPIc - Advanced Low  
+▪ OPIc - Advanced Low(English)  
 
    
 # Interests
