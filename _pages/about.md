@@ -47,7 +47,7 @@ Summer Research Intern
 
 > ## Korea Electronics Technoloigy Institute(KETI)
 #### Convergence Electronic Materials Research Center
-Research Intern  
+Research Intern   
 2023.07-2023.08  
 
 
@@ -55,39 +55,39 @@ Research Intern
 # Projects
 ## 2025
 > #### Junctionless Transistor Research
-▪ Design Junctionless Transistor (etc.FinFET,NanosheetFET) using Synopsys TCAD
-▪ Check DC/RF characteristics in comparison to Normal Devices
+▪ Design Junctionless Transistor (etc.FinFET,NanosheetFET) using Synopsys TCAD  
+▪ Check DC/RF characteristics in comparison to Normal Devices  
 
 ## 2024
 > #### IGZO-Vertical CAA 2T0C DRAM Research
-▪ Design 4F2 Layout using KLayout
-▪ Design Vertical Channel-All-Around Scheme using Synopsys TCAD
-▪ Optimize Retention time with Controlling Gate Hole Critical Dimension
+▪ Design 4F2 Layout using KLayout  
+▪ Design Vertical Channel-All-Around Scheme using Synopsys TCAD  
+▪ Optimize Retention time with Controlling Gate Hole Critical Dimension  
 
 > #### RF Charcteristics Research in GAA Devices
-▪ Design 5nm 3-Stack GAA Device using Synopsys TCAD
-▪ Extract RF charcteristics (etc.$F_t, $F_{max})
-▪ Check RF charcteristics accrording to Nanosheet Width Size
-▪ Check RF charcteristics between NanosheetFET & ForksheetFET
-▪ Check Improvements in RF characteristics using Local Bottom Isolation
+▪ Design 5nm 3-Stack GAA Device using Synopsys TCAD  
+▪ Extract RF charcteristics (etc.$F_t, $F_{max})  
+▪ Check RF charcteristics accrording to Nanosheet Width Size  
+▪ Check RF charcteristics between NanosheetFET & ForksheetFET  
+▪ Check Improvements in RF characteristics using Local Bottom Isolation  
 
 
 ## 2023
 > #### Row-Hammer Effect Mitigation in BCAT
-▪ Design 6F2 Layout using KLayout
-▪ Design 20nm BCAT DRAM using Synopsys TCAD
-▪ Mitigate Row-Hammer Effect using Arsenic Doping Profile on Bit Line
+▪ Design 6F2 Layout using KLayout  
+▪ Design 20nm BCAT DRAM using Synopsys TCAD  
+▪ Mitigate Row-Hammer Effect using Arsenic Doping Profile on Bit Line  
 
 > #### FinFET Design
-▪ Design Layout using KLayout
-▪ Design 22nm FinFET Scheme using Synopsys TCAD
-▪ Check Electrical characteristics (etc. I-V, C-V) according to the Fin Height Size
+▪ Design Layout using KLayout  
+▪ Design 22nm FinFET Scheme using Synopsys TCAD  
+▪ Check Electrical characteristics (etc. I-V, C-V) according to the Fin Height Size  
 
 > #### MOSFET Design
-▪ Design Layout using KLayout
-▪ Design 180nmnm MOSFET Scheme using Synopsys TCAD
-▪ Check Electrical characteristics (etc. I-V, C-V) 
-
+▪ Design Layout using KLayout  
+▪ Design 180nmnm MOSFET Scheme using Synopsys TCAD  
+▪ Check Electrical characteristics (etc. I-V, C-V)   
+ 
 
 # Skill
 > #### Technical
