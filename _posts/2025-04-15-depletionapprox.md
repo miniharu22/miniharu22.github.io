@@ -8,7 +8,7 @@ toc_sticky: true
 comments: true
 ---
 
-Energy Band, Cause of Electric field generation, Depletion Region, Depletion Approximation 
+Energy Band, Cause of Electric field generation, Depletion Region, Depletion Approximation   
 
 ## 1. Energy Band
 
