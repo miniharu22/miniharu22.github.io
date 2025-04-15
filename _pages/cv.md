@@ -1,33 +1,21 @@
 ---
-title: "About me"
-permalink: /about/
+title: "CV"
+permalink: /cv/
 layout: single
 
 ---
-
-## Hello, This is Sangmin Lee! 🖐️
-
-Welcome to my Tech Blog!  
-
-I’m currently working as a MCU Design Engineer at Department of System Design  in ST Microelectronics.
-
-My Reseach Interests focus on Advanced Semiconductor Technology with Device & Fabrication.
-
-Based on Passion, Creativity and Teamwork, I have developed my competance as an Engineer.
-
-### If you want to know more about me, please see following CV!
-
 ## 🧑‍🎓 Education
 
 > **Bachelor of Science** 2019.03-2025.02  
 ##### Konkuk University  
 Department of Electrical and Electronic Engineering
 
-## 🖥 Work Experience
+## 🖥 Experience
 
-> **MCU Design Engineer** 2025.02-Present  
-##### ST Microelectronics
-Department of System Design  
+> ##### ST Microelectronics
+    > ##### Department of System Design    
+MCU Design Engineer 2025.02-Present  
+
 
 > **External Research Collaborators** 2024.12-Present
 ##### Pohang University of Science and Technology(POSTECH)
@@ -46,6 +34,13 @@ Advanced Electronics Device Research Group
 Convergence Electronic Materials Research Center
 
 
+## 📚 Projects
+
+#### 2024
+
+> **IGZO-Vertical CAA 2T0C DRAM** 2025.02-Present  
+##### ST Microelectronics
+Department of System Design
 
 
 
@@ -66,34 +61,7 @@ Convergence Electronic Materials Research Center
 ▪ SPSS (교차분석, T검정, 사전*사후 검증 등 가능)  
 ▪ Git, Git Desktop, Gitpages(Jekyll)  
 
-## 🧗🏻 Personal Experience & Projects
-
-#### 🔗 IT & Statistics Field
-
-> **전북대 빅데이터 분석 경연대회** 2022.01   
-##### 서울 지하철 유동인구와 공기질 분석 및 지도 시각화
-▪ Pandas, matplotlib를 데이터 전처리 및 EDA 시각화  
-▪ Folium을 사용하여 서울시 지도 시각화   
-▪ 가설 수립 및 검증 그리고 대안 제시를 통해 장려상(3등) 수상  
-
-> **울산항만공사 스마트해상물류 자동화 서비스 개발 프로젝트** 2021.07 ~ 2021.08  
-##### 차종 인식 AI를 활용한 차량 재고장 관리 서비스 개발  
-▪ 해양 물류 프로세스 연구 및 현장 인터뷰, 현장 방문을 통한 서비스 기획 그리고 발표  
-▪ 팀 구성 및 K-DATA와 울산항만공사 협업에 필요한 서류작업 및 커뮤니케이션  
-▪ 개발팀 및 알고리즘팀과 함께 개발 소스 및 ML 알고리즘 탐색 및 의견 조정  
-
-> **BM 스터디 - 개인추천화서비스** 2021.07  
-##### 개인 프로젝트로 배달의 민족 개인추천화 서비스 기획 및 알고리즘 연구 후 투고  
-▪ AI 기법 공부 중 비즈니스 모델 구현의 필요성을 느끼고 BM 스터디를 만듬  
-▪ 문제점 및 필요성, 해결방안, 알고리즘, 기업 이익 순으로 발표  
-▪ 가장 좋은 아이디어로 배달의 민족 개인추천화 서비스 선정 후 이를 기획 개발  
-▪ 배민 책자를 본 떠 서비스 필요성, 모델 설명, 알고리즘, UI 화면 등을 보고서 형식을 만들어 제출    
-
-> **NIA 2020 빅콘테스트** 2020.09 ~ 2020.10  
-##### 20시즌 한국 야구 승률 예측 모델 개발  
-▪ R을 이용하여 20년 3월 ~ 9월 데이터 전처리 및 시각화    
-▪ 19년 이하 야구 데이터 수집  
-▪ Python ARIMA 모델을 이용하여 시계열 분석   
+   
 
 #### 🔗 Other Fields
 <details>
