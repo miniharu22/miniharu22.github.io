@@ -2,10 +2,10 @@
 title: "About Me"
 permalink: /about/
 layout: single
-author-profile: true
+author_profile: true
 ---
 
-## Hello, This is TaeYoung Kim! 🖐️
+## Hello, This is Sangmin Lee! 🖐️
 
 I’m currently working as a MCU Design Engineer at Department of System Design  in ST Microelectronics.  
 
