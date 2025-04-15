@@ -66,7 +66,7 @@ Research Intern
 
 > #### RF Charcteristics Research in GAA Devices
 ▪ Design 5nm 3-Stack GAA Device using Synopsys TCAD  
-▪ Extract RF charcteristics (etc.$F_t, $F_{max})  
+▪ Extract RF charcteristics (etc.$$F_t, F_{max}$$)  
 ▪ Check RF charcteristics accrording to Nanosheet Width Size  
 ▪ Check RF charcteristics between NanosheetFET & ForksheetFET  
 ▪ Check Improvements in RF characteristics using Local Bottom Isolation  
