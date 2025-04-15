@@ -1,6 +1,6 @@
 ---
 layout : single
-title: "Qualitative Analysis of PN Junction"
+title: "Charge Density"
 categories: PN_Junction
 tag: PN_Junction
 toc: true
@@ -8,10 +8,7 @@ toc_sticky: true
 comments: true
 ---
 
-Understand qualitatively what happens when a PN Junction is formed.
-
-## 1. Charge Density
-#### 1-1. Gauss's Law
+## 1. Gauss's Law
 
 &nbsp;
 
@@ -41,7 +38,7 @@ If we summarize this equation again for one dimension, We can find the relation 
 
 &nbsp;
 
-#### 1-2. Poisson’s Equation(ρ-E-V relation)
+## 2. Poisson’s Equation(ρ-E-V relation)
 
 &nbsp;
 
