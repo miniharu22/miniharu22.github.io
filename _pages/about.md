@@ -19,33 +19,33 @@ Based on Passion, Creativity and Teamwork, I have developed my competance as an 
 
 ## 🧑‍🎓 Education
 
-> #### Bachelor of Science 2019.03-2025.02  
-Konkuk University  
-Department of Electrical and Electronic Engineering
+> ### Bachelor of Science 2019.03-2025.02  
+##### Konkuk University  
+###### Department of Electrical and Electronic Engineering
 
 ## 🖥 Work Experience
 
-> #### MCU Design Engineer 2025.02 ~  
-ST Microelectronics, Department of System Design  
-  
-▪ Optimize Memory Controller in STM32 Line-Up  
-▪ Verify Performance of NPU Controller  
-▪ Redesign Product for Application Purpose  
+> ### MCU Design Engineer 2025.02 ~  
+##### ST Microelectronics
+###### Department of System Design  
 
-> #### External Research Collaborators 2024.12 ~ 
-POSTECH, Physical Electronics Lab
-  
-▪ Design Scheme of 2T0C Vertical Channel-All-Around DRAM Based on IGZO Channel  
-▪ Optimize DRAM Performance by Focusing on Scheme
+> ### External Research Collaborators 2024.12 ~ 
+##### Pohang University of Science and Technology(POSTECH)
+###### Physical Electronics Lab
 
-> #### Summer Research Intern 2024.07 ~ 2024.08
-DGIST, Advanced Electronics Device Research Group
+> ### External Undergraduate Researcher 2023.05 ~ 2025.12
+##### Pohang University of Science and Technology(POSTECH) 
+###### Physical Electronics Lab
 
-> #### Research Intern 2023.07 ~ 2023.08
-Korea Electronics Technoloigy Institute(KETI)
+> ### Summer Research Intern 2024.07 ~ 2024.08
+##### Daegu Gyeongbuk Institute of Science & Technology(DGIST)
+###### Advanced Electronics Device Research Group
 
-> #### External Undergraduate Researcher 2023.05 ~ 2025.12
-POSTECH, Physical Electronics Lab
+> ### Research Intern 2023.07 ~ 2023.08
+##### Korea Electronics Technoloigy Institute(KETI)
+###### Convergence Electronic Materials Research Center
+
+
 
 
 
