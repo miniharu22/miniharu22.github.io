@@ -4,7 +4,7 @@ permalink: /cv/
 layout: single
 
 ---
-## 🧑‍🎓 Education
+# 🧑‍🎓 Education
 
 > ## Konkuk University
 #### Department of Electrical and Electronic Engineering
@@ -13,29 +13,32 @@ Bachelor of Science
   
 
 
-## 🖥 Experience
+# 🖥 Experience
 
-> ##### ST Microelectronics
-##### Department of System Design    
-MCU Design Engineer 2025.02-Present  
+> ## ST Microelectronics
+#### Department of System Design    
+MCU Design Engineer  
+2025.02-Present  
 
+> ## Pohang University of Science and Technology(POSTECH)
+#### Physical Electronics Lab
+External Research Collaborators  
+2024.12-Present
 
-> **External Research Collaborators** 2024.12-Present
-##### Pohang University of Science and Technology(POSTECH)
-Physical Electronics Lab
+> ## Pohang University of Science and Technology(POSTECH) 
+#### Physical Electronics Lab
+External Undergraduate Researcher  
+2023.05-2024.12
+ 
+> ## Daegu Gyeongbuk Institute of Science & Technology(DGIST)
+#### Advanced Electronics Device Research Group
+Summer Research Intern  
+2024.07-2024.08
 
-> **External Undergraduate Researcher** 2023.05-2024.12
-##### Pohang University of Science and Technology(POSTECH) 
-Physical Electronics Lab
-
-> **Summer Research Intern** 2024.07-2024.08
-##### Daegu Gyeongbuk Institute of Science & Technology(DGIST)
-Advanced Electronics Device Research Group
-
-> **Research Intern** 2023.07-2023.08
-##### Korea Electronics Technoloigy Institute(KETI)
-Convergence Electronic Materials Research Center
-
+> ## Korea Electronics Technoloigy Institute(KETI)
+#### Convergence Electronic Materials Research Center
+Research Intern  
+2023.07-2023.08
 
 ## 📚 Projects
 
