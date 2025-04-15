@@ -27,13 +27,16 @@ Department of Electrical and Electronic Engineering
 
 > #### MCU Design Engineer 2025.02 ~  
 ST Microelectronics, Department of System Design  
+  
 ▪ Optimize Memory Controller in STM32 Line-Up  
 ▪ Verify Performance of NPU Controller  
 ▪ Redesign Product for Application Purpose  
 
 > #### External Research Collaborators 2024.12 ~ 
 POSTECH, Physical Electronics Lab
-
+  
+▪ Design Scheme of 2T0C Vertical Channel-All-Around DRAM Based on IGZO Channel  
+▪ Optimize DRAM Performance by Focusing on Scheme
 
 > #### Summer Research Intern 2024.07 ~ 2024.08
 DGIST, Advanced Electronics Device Research Group
