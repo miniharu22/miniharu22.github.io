@@ -21,29 +21,29 @@ Based on Passion, Creativity and Teamwork, I have developed my competance as an 
 
 > ### Bachelor of Science 2019.03-2025.02  
 ##### Konkuk University  
-###### Department of Electrical and Electronic Engineering
+Department of Electrical and Electronic Engineering
 
 ## 🖥 Work Experience
 
 > ### MCU Design Engineer 2025.02 ~  
 ##### ST Microelectronics
-###### Department of System Design  
+Department of System Design  
 
 > ### External Research Collaborators 2024.12 ~ 
 ##### Pohang University of Science and Technology(POSTECH)
-###### Physical Electronics Lab
+Physical Electronics Lab
 
 > ### External Undergraduate Researcher 2023.05 ~ 2025.12
 ##### Pohang University of Science and Technology(POSTECH) 
-###### Physical Electronics Lab
+Physical Electronics Lab
 
 > ### Summer Research Intern 2024.07 ~ 2024.08
 ##### Daegu Gyeongbuk Institute of Science & Technology(DGIST)
-###### Advanced Electronics Device Research Group
+Advanced Electronics Device Research Group
 
 > ### Research Intern 2023.07 ~ 2023.08
 ##### Korea Electronics Technoloigy Institute(KETI)
-###### Convergence Electronic Materials Research Center
+Convergence Electronic Materials Research Center
 
 
 
