@@ -2,7 +2,8 @@
 title: "About Me"
 permalink: /about/
 layout: single
-
+author_profile: true
+sidebar_main: true
 ---
 
 ## Hello, This is TaeYoung Kim! 🖐️
