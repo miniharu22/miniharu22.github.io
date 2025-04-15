@@ -2,19 +2,19 @@
 title: "About Me"
 permalink: /about/
 layout: single
-author_profile: true
-sidebar_main: true
+author-profile: true
 ---
 
 ## Hello, This is TaeYoung Kim! 🖐️
 
-Welcome to my Tech Blog!  
+I’m currently working as a MCU Design Engineer at Department of System Design  in ST Microelectronics.  
 
-This is Taeyoung Kim, who wants to become a Robotics Perception engineer or SLAM / Localization engineer. I'm **self-motivated student**, also I like to grow up with my colleagues around me.
+My Reseach Interests focus on Advanced Semiconductor Technology with Device & Fabrication.  
 
-I start my Tech blog to record and share what I have learned.  
+Based on Passion, Creativity and Teamwork, I have developed my competance as an Engineer.  
 
 
+### If you want to know more about me, please see follwing CV.
 
 # Degree
 > ## Konkuk University
