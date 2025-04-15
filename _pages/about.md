@@ -26,24 +26,24 @@ Department of Electrical and Electronic Engineering
 ## 🖥 Work Experience
 
 > #### MCU Design Engineer 2025.02 ~  
-###### ST Microelectronics, Department of System Design
-Working as a MCU Design Engineer at Department of System Design
+ST Microelectronics, Department of System Design  
+▪ Optimize Memory Controller in STM32 Line-Up  
+▪ Verify Performance of NPU Controller  
+▪ Redesign Product for Application Purpose  
 
 > #### External Research Collaborators 2024.12 ~ 
-###### POSTECH, Physical Electronics Lab
-Working as a External Research Collaborators at Physical Electronics Lab
+POSTECH, Physical Electronics Lab
+
 
 > #### Summer Research Intern 2024.07 ~ 2024.08
-###### DGIST, Advanced Electronics Device Research Group
-Worked as a Full-time Summer Intern Researcher Advanced Electronics Device Research Group
+DGIST, Advanced Electronics Device Research Group
 
 > #### Research Intern 2023.07 ~ 2023.08
-###### Korea Electronics Technoloigy Institute(KETI)
-Worked as a Full-time Intern Researcher at Semiconductor and Display Research Section
+Korea Electronics Technoloigy Institute(KETI)
 
 > #### External Undergraduate Researcher 2023.05 ~ 2025.12
-###### POSTECH, Physical Electronics Lab
-Worked as a Research Intern at Physical Electronics Lab
+POSTECH, Physical Electronics Lab
+
 
 
 
@@ -62,30 +62,6 @@ Worked as a Research Intern at Physical Electronics Lab
 ▪ Excel (분석, 그래프 및 매크로 가능)  
 ▪ SPSS (교차분석, T검정, 사전*사후 검증 등 가능)  
 ▪ Git, Git Desktop, Gitpages(Jekyll)  
-
-## 🖥 Work Experience & Projects
-
-> **통계데이터센터 분석요원** 2023.01 ~
-##### 가명정보 결합업무 수행, 데이터 비식별화 처리, 행정 DB 품질관리 및 데이터 분석 지원 
-▪ Python을 활용한 데이터 비식별화 작업  
-▪ R, SAS_SQL구문을 활용한 행정 & 민간 DB 결합, 연계 작업  
-▪ 데이터 분석자료 비식별화 기준 연구 및 메뉴얼 작성  
-
-> **선거관리위원회 여론조사 분석요원** 2022.01 ~ 2022.06  
-##### 대선·지선과 관련된 선거여론조사에 대한 RawData 분석 및 결과에 대한 조작 가능성 검토
-▪ Excel 및 Python을 활용한 조사 자료(RawData) 전처리 및 통계분석 후 해석 및 조작 가능성 검토   
-▪ SPSS를 활용한 교차분석 및 해석   
-▪ 각 지역, 선거별 후보자 혹은 정당의 지지율 추이 시계열 분석 후 그래프 시각화  
-▪ 각 지역별 조사 응답률, 접촉률 계산 매트로 개발.   
-
-> **NIA 공공데이터 청년인턴** 2021.09 ~ 2021.12  
-##### 공공 데이터 품질 진단 및 개선
-▪ 공공기관 별 공개 데이터와 공공 OPEN API와 연결 될 수 있도록 데이터를 라벨링하고 연결하는 작업.     
-
-> **논문 통계 분석 외주** 2020.06 ~ 2020.07  
-##### 박사 논문 내 사회 실험 결과 분석 후 통계자료 및 내용 해석 제공
-▪ 세계시민교육의 효용성을 검증 및 개발을 위한 실행 평가 연구 조사 분석 외주를 맡음  
-▪ SPSS를 활용하여 전처리, 사전 • 사후 검증, t검정 및 f검증을 통한 상관관계 분석  
 
 ## 🧗🏻 Personal Experience & Projects
 
