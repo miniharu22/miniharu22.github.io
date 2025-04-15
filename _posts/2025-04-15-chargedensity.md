@@ -1,6 +1,6 @@
 ---
 layout : single
-title: "[PN Junction] Charge Density & Charge Neutrality"
+title: "[PN Junction] Charge Density & Charge Neutrality Condition"
 categories: PN_Junction
 tag: PN_Junction
 toc: true
