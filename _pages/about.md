@@ -17,6 +17,24 @@ Based on Passion, Creativity and Teamwork, I have developed my competance as an 
 
 ### If you want to know more about me, please see following CV!
 
+## 🧑‍🎓 Education
+
+> **Bachelor of Science** 2019.03-2025.02
+Konkuk University
+Department of Electrical and Electronic Engineering
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🧩 Skill
 
 #### Analysis
