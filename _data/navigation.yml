@@ -48,9 +48,9 @@ main:
 sidebar-category:
   - title: "Physics"
     children:
-      - title: "PN_Junction"
-        url: "/PN_Junction"
-        category: "PN_Junction"
+      - title: "PN Junction"
+        url: "/pn_junction"
+        category: "PN Junction"
 
   - title: "Device Simulation"
     children:
