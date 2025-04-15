@@ -9,6 +9,7 @@ comments: true
 ---
 
 ## 1. Gauss's Law
+#### 1-2. Charge Density
 
 &nbsp;
 
@@ -38,7 +39,7 @@ If we summarize this equation again for one dimension, We can find the relation 
 
 &nbsp;
 
-## 2. Poisson’s Equation(ρ-E-V relation)
+#### 1-2. Poisson’s Equation(ρ-E-V relation)
 
 &nbsp;
 
