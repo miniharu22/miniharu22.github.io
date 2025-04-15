@@ -30,6 +30,6 @@ If Charge Density is integrated in triplicate with respect to the volume, it is 
 
 In addition, the divergence theorem can be used to obtain the Equation in the form of ∇ as above.  
 
-<p align="center"><img src="/assets/images/pnjunction/2.png" width="50%" height="50%"  title="" alt=""/></p>
+<p align="center"><img src="/assets/images/pnjunction/2.png" width="20%" height="20%"  title="" alt=""/></p>
 
 If we summarize this equation again for one dimension, We can find the relation expression for Electric Field($$E$$) and Charge Density(ρ).  
