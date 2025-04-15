@@ -1,10 +1,9 @@
 ---
-title: "About Me"
+title: "Degree"
 permalink: /about/
 layout: single
 author_profile: true
 ---
-# Degree
 > ## Konkuk University
 #### Department of Electrical and Electronic Engineering
 Bachelor of Science  
