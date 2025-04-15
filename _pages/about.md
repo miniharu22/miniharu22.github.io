@@ -5,6 +5,16 @@ layout: single
 
 ---
 
+## Hello, This is TaeYoung Kim! 🖐️
+
+Welcome to my Tech Blog!  
+
+This is Taeyoung Kim, who wants to become a Robotics Perception engineer or SLAM / Localization engineer. I'm **self-motivated student**, also I like to grow up with my colleagues around me.
+
+I start my Tech blog to record and share what I have learned.  
+
+
+
 # Degree
 > ## Konkuk University
 #### Department of Electrical and Electronic Engineering
