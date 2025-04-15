@@ -25,19 +25,25 @@ Department of Electrical and Electronic Engineering
 
 ## 🖥 Work Experience
 
-> **MCU Design Engineer** 2025.02 ~
-##### 가명정보 결합업무 수행, 데이터 비식별화 처리, 행정 DB 품질관리 및 데이터 분석 지원 
-▪ Python을 활용한 데이터 비식별화 작업  
-▪ R, SAS_SQL구문을 활용한 행정 & 민간 DB 결합, 연계 작업  
-▪ 데이터 분석자료 비식별화 기준 연구 및 메뉴얼 작성  
+> #### MCU Design Engineer 2025.02 ~  
+###### ST Microelectronics, Department of System Design
+Working as a MCU Design Engineer at Department of System Design
 
+> #### External Research Collaborators 2024.12 ~ 
+###### POSTECH, Physical Electronics Lab
+Working as a External Research Collaborators at Physical Electronics Lab
 
+> #### Summer Research Intern 2024.07 ~ 2024.08
+###### DGIST, Advanced Electronics Device Research Group
+Worked as a Full-time Summer Intern Researcher Advanced Electronics Device Research Group
 
+> #### Research Intern 2023.07 ~ 2023.08
+###### Korea Electronics Technoloigy Institute(KETI)
+Worked as a Full-time Intern Researcher at Semiconductor and Display Research Section
 
-
-
-
-
+> #### External Undergraduate Researcher 2023.05 ~ 2025.12
+###### POSTECH, Physical Electronics Lab
+Worked as a Research Intern at Physical Electronics Lab
 
 
 
