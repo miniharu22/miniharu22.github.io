@@ -1,21 +1,9 @@
 ---
-title: "Welcome to my Tech Blog!"
+title: "About Me"
 permalink: /about/
 layout: single
 author_profile: true
 ---
-
-## Hello, This is Sangmin Lee! 🖐️
-
-I’m currently working as a MCU Design Engineer at Department of System Design  in ST Microelectronics.  
-
-My Reseach Interests focus on Advanced Semiconductor Technology with Device & Fabrication.  
-
-Based on Passion, Creativity and Teamwork, I have developed my competance as an Engineer.  
-
-
-### If you want to know more about me, please see follwing CV.  
-
 # Degree
 > ## Konkuk University
 #### Department of Electrical and Electronic Engineering
