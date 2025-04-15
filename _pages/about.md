@@ -9,7 +9,7 @@ layout: single
 
 Welcome to my Tech Blog!  
 
-I’m currently working as a MCU Design Engineer at Department of System Design  in ****ST Microelectronics.
+I’m currently working as a MCU Design Engineer at Department of System Design  in ST Microelectronics.
 
 My Reseach Interests focus on Advanced Semiconductor Technology with Device & Fabrication.
 
@@ -20,9 +20,16 @@ Based on Passion, Creativity and Teamwork, I have developed my competance as an 
 ## 🧑‍🎓 Education
 
 > **Bachelor of Science** 2019.03-2025.02
-Konkuk University
-Department of Electrical and Electronic Engineering
+▪ Konkuk University
+▪ Department of Electrical and Electronic Engineering
 
+## 🖥 Work Experience
+
+> **통계데이터센터 분석요원** 2023.01 ~
+##### 가명정보 결합업무 수행, 데이터 비식별화 처리, 행정 DB 품질관리 및 데이터 분석 지원 
+▪ Python을 활용한 데이터 비식별화 작업  
+▪ R, SAS_SQL구문을 활용한 행정 & 민간 DB 결합, 연계 작업  
+▪ 데이터 분석자료 비식별화 기준 연구 및 메뉴얼 작성  
 
 
 
