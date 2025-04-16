@@ -22,7 +22,7 @@ In general, the structure of the capacitor we know is that an insulator or diele
 
 Due to the characteristics of this medium, an E-field is generated due to the fixed charge in a situation where the charge is located at both ends of the plate without moving.  
 
-As such, the measure of how much charge can be stored in an E-field is ***Capacitance**.  
+As such, the measure of how much charge can be stored in an E-field is **Capacitance**.  
 
 &nbsp;
 
