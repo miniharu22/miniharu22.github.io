@@ -23,7 +23,7 @@ name                     : "Lee SangMin"
 description              : 
 url                      : "https://miniharu22.github.io"
 baseurl                  : ""  # the subpath of your site, e.g. "/blog"
-repository               : 
+repository               : miniharu22/miniharu22.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/pixel.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
