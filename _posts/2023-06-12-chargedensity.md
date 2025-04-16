@@ -26,7 +26,7 @@ In addition, Φ can be expressed as Total charge in a closed surface and Dielect
 
 We assume that all charges are concentrated in a single point in a closed surface, But Gauss's Law can be applied even if all charges are evenly distributed in the surface.  
   
-At this time, The value obtained by dividing all charges in the surface by the volume is called **Charge Density(ρ,$$C/{cm}^3$$)**.  
+At this time, The value obtained by dividing all charges in the surface by the volume is called **Charge Density(ρ,$$C/cm^3$$)**.  
 
 If Charge Density is integrated in triplicate with respect to the volume, it is equal to the total amount of charge.   
 
