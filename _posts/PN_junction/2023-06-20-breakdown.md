@@ -29,7 +29,7 @@ However, in reality, when the reverse bias rises above a certain reference value
 
 This phenomenon in which the current is not limited and suddenly amplified is called ***Breakdown**.  
 
-There are two mechanisms of this Breakdown : **Zener Effect & **Avalanche Effect**  
+There are two mechanisms of this Breakdown : **Zener Effect & Avalanche Effect**  
 
 &nbsp;
 
@@ -101,7 +101,7 @@ To the end, E-field must be generated above a certain reference value to acceler
 
 &nbsp;
 
-<p align="center"><img src="/assets/images/pnjunction/63.png" width="50%" height="50%"  title="" alt=""/></p>
+<p align="center"><img src="/assets/images/pnjunction/63.png" width="70%" height="70%"  title="" alt=""/></p>
 
 While Studying Built-in Electronics, We derived a formula to find the maximum value of E-field in the depletion region. If this value is greater than the strength of E-field required for Impact Ionization, Avalanche Breakdown occurs.  
 
