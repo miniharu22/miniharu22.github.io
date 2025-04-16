@@ -22,10 +22,10 @@ In the case of PN Junction that we have studied so far, if semicounductors made 
 There are usually two types of Junction referred to in semiconductors.
 
 * Homo-Junction  
-Same type of materials are bonded, such as PN Junction.
+: Same type of materials are bonded, such as PN Junction.
 
 * Hetero-Junction  
-Different types of materials are bonded, such as MS Junction.  
+: Different types of materials are bonded, such as MS Junction.  
 
 &nbsp;
 
@@ -62,12 +62,12 @@ There are some of the most important concepts in MS Junction.
 Looking at the figure above, unfamiliar symbol such as $$Φ$$ and $$χ$$ can be seen. These are symbols representing **Work Function** and **Electron Affinity**, and there meanings are as follows.  
 
 * Work Function ($$Φ$$)  
-- Minimal energy needed to elevate one electron to a Vaccum Level  
-- $$Φ$$ = Vaccum Level - Fermi Level  
+  - Minimal energy needed to elevate one electron to a Vaccum Level  
+  - $$Φ$$ = Vaccum Level - Fermi Level  
 
 * Electron Affinity ($$χ$$)  
-- Minimal energy needed to bring one electron located at $$E_C$$ to a Vaccum Level  
-- $$χ$$ = Silicon's Work Function - ($$E_C-E_F$$)  
+  - Minimal energy needed to bring one electron located at $$E_C$$ to a Vaccum Level  
+  - $$χ$$ = Silicon's Work Function - ($$E_C-E_F$$)  
 
 Here Vaccum Level is a hypothetical Energy Level arbitrarily set to model MS Junction and becomes a reference level for Work Functions and Electron Affinity.  
 
