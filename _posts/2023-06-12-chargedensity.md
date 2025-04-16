@@ -1,8 +1,8 @@
 ---
 layout : single
 title: "[PN Junction] Charge Density & Charge Neutrality"
-categories: PN_Junction
-tag: PN_Junction
+categories: Junction
+tag: [PN Junction]
 toc: true
 toc_sticky: true
 comments: true

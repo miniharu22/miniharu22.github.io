@@ -1,7 +1,7 @@
 ---
-title: "PN_Junction"
+title: "Junction"
 layout: archive
-permalink: /PN_Junction
+permalink: /Junction
 ---
 
 
