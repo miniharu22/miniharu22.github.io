@@ -27,7 +27,7 @@ According to the above I-V Plot of PN Diode, the current increases exponentially
 
 However, in reality, when the reverse bias rises above a certain reference value, the current flowing through the device is suddenly amplified.  
 
-This phenomenon in which the current is not limited and suddenly amplified is called ***Breakdown**.  
+This phenomenon in which the current is not limited and suddenly amplified is called **Breakdown**.  
 
 There are two mechanisms of this Breakdown : **Zener Effect & Avalanche Effect**  
 
