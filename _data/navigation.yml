@@ -46,7 +46,7 @@ main:
 #         url: /categories/#MFC
 
 sidebar-category:
-  - title: "Physics"
+  - title: "Physics & Device"
     children:
       - title: "Junction"
         url: "/Junction"
