@@ -9,6 +9,7 @@ tag:
 toc: true
 toc_sticky: true
 comments: true
+use_math: true
 ---
 
 Breakdown, Zener Effect with Tunneling, Avalanche Effect with Impact Ionization, Impact Ionization with E-field

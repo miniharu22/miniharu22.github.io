@@ -6,6 +6,7 @@ tag: [PN Junction]
 toc: true
 toc_sticky: true
 comments: true
+use_math: true
 ---
 
 Charge Density, Poisson's Equation, Charge Neutrality, Idealized PN Junction  

@@ -7,6 +7,7 @@ tag:
 toc: true
 toc_sticky: true
 comments: true
+use_math: true
 ---
 
 MS Junction, Metal, Work Function & Electron Affinity

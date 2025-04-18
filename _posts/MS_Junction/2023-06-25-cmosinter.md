@@ -9,6 +9,7 @@ tag:
 toc: true
 toc_sticky: true
 comments: true
+use_math: true
 ---
 
 CMOS Interconnection, Ohmic contact with Highly Doping

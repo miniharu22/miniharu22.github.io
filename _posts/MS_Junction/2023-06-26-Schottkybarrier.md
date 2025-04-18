@@ -7,6 +7,7 @@ tag:
 toc: true
 toc_sticky: true
 comments: true
+use_math: true
 ---
 
 Image Charge, Schottky Barrier Lowering

@@ -8,6 +8,7 @@ tag:
 toc: true
 toc_sticky: true
 comments: true
+use_math: true
 ---
 
 Capacitance, Depletion Capacitance, Expression of Depletion Capacitance, Built-in Voltage Check, Doping Concentration Check
