@@ -33,7 +33,7 @@ As the voltage is applied, additional band bending is formed on the existing oxi
 
 &nbsp;
 
-<p align="center"><img src="/assets/images/MOSCAP/30.png" width="30%" height="30%"  title="" alt=""/></p>
+<p align="center"><img src="/assets/images/MOSCAP/30.png" width="50%" height="50%"  title="" alt=""/></p>
 
 Here, the increases of $$\Delta V_{ox}$$ and $$\Delta \phi_s$$ correspond to the difference between the potentials $$V_{ox}$$ and $$\phi_s$$ in the Thermal Equailibrium state.  
 
