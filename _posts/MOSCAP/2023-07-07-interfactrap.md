@@ -73,7 +73,7 @@ Therefore, $$Q_{it}$$ can be extracted using $$\Delta V_G$$ as shown in the figu
 
 <p align="center"><img src="/assets/images/MOSCAP/78.png" width="30%" height="30%"  title="" alt=""/></p>
 
-Since we know $Q_{it}$$, if we substitute it into the above formula, we can extract $$D_{it}$$ and $$C_{it}$$.   
+Since we know $$Q_{it}$$, if we substitute it into the above formula, we can extract $$D_{it}$$ and $$C_{it}$$.   
 
 &nbsp;
 
