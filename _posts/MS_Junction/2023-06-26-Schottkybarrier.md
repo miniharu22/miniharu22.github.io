@@ -15,7 +15,7 @@ Image Charge, Schottky Barrier Lowering
 
 &nbsp;
 
-<p align="center"><img src="/assets/images/msjunction/18.png" width="50%" height="50%"  title="" alt=""/></p>
+<p align="center"><img src="/assets/images/msjunction/18.png" width="30%" height="30%"  title="" alt=""/></p>
 
 Before explaning the Schottky Barrier Lowering Effect, we should first know about **Image Charge**.  
 
@@ -25,7 +25,7 @@ However, since this wire is grounded, the potential must always be zero, resulti
 
 &nbsp;
 
-<p align="center"><img src="/assets/images/msjunction/19.png" width="50%" height="50%"  title="" alt=""/></p>
+<p align="center"><img src="/assets/images/msjunction/19.png" width="30%" height="30%"  title="" alt=""/></p>
 
 To resolve this contradiction, it is assumed that virtual charges with opposite polarity to conventional charges exist in a state seperated by the same distance ($$d$$), and these virtual charges are called **Image Charge**.  
 
