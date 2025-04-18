@@ -52,6 +52,10 @@ sidebar-category:
         url: "/Junction"
         category: "Junction"
 
+      - title: "MOS"
+        url: "/MOS"
+        category: "MOS"
+
   - title: "Device Simulation"
     children:
       - title: "180nm MOSFET"
