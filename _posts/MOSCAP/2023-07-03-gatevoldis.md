@@ -19,7 +19,7 @@ Gate Voltage Distribution, Oxide Voltage
 
 <p align="center"><img src="/assets/images/MOSCAP/28.png" width="50%" height="50%"  title="" alt=""/></p>
 
-Earlier, we learned that -$$\phi_{ms}$$ = $$V_{ox0}$$ + $$\phi_{s0}$$.  
+Earlier, we learned that - $$\phi_{ms}$$ = $$V_{ox0}$$ + $$\phi_{s0}$$.  
 
 So what happens if we apply an additional Gate voltage here?  
 
@@ -37,7 +37,7 @@ As the voltage is applied, additional band bending is formed on the existing oxi
 
 Here, the increases of $$\Delta V_{ox}$$ and $$\Delta \phi_s$$ correspond to the difference between the potentials $$V_{ox}$$ and $$\phi_s$$ in the Thermal Equailibrium state.  
 
-We know that in the Thermal Equailibrium state, -$$\phi_{ms}$$ = $$V_{ox0}$$ + $$\phi_{s0}$$, the above equation is summarized as follows.  
+We know that in the Thermal Equailibrium state, - $$\phi_{ms}$$ = $$V_{ox0}$$ + $$\phi_{s0}$$, the above equation is summarized as follows.  
 
 &nbsp;
 
@@ -57,7 +57,7 @@ So, When a voltage is applied to the Gate, it first makes the energy band of Sil
 
 As we learned before, MOS Structrue is Capacitor.  
 
-When a voltage is applied to the gate, a charge of +$$Q_m$$ is formed in the metal area (which exists only on the surface of metal), and -$$Q_m$$ charge with same amount is formed in the silicon.  
+When a voltage is applied to the gate, a charge of + $$Q_m$$ is formed in the metal area (which exists only on the surface of metal), and - $$Q_m$$ charge with same amount is formed in the silicon.  
 
 &nbsp;
 
@@ -75,7 +75,7 @@ In MOS, since oxide acts as a dielectric, it can be expressed in $$\frac{dielect
 
 Since we know the formula $$Q$$ = $$CV$$ here, substituting $$C_{ox}$$ and $$V_{ox}$$ values into the formula yields values of $$Q_m$$ or $$Q_s$$.  
 
-Thus, the formula of $$V_{ox}$$ that we wanted to obtain can be expressed as $$V_{ox}$$ = -$$\frac{Q_s}{C_{ox}}$$.  
+Thus, the formula of $$V_{ox}$$ that we wanted to obtain can be expressed as $$V_{ox}$$ = - $$\frac{Q_s}{C_{ox}}$$.  
 
-**※ The (-) sign is used in this expression because $$V_{ox}$$ has a positive sign and $$Q_s$$ has a negative sign.  
+**※ The (-) sign is used in this expression because $$V_{ox}$$ has a positive sign and $$Q_s$$ has a negative sign.**  
 
