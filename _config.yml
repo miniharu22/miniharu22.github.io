@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "LEE SANGMIN"
   avatar           : "/assets/images/myface.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Pain is temporary. <br>Quitting lasts forever."
+  bio              : ""
   location         : "Seoul, Republic of korea"
   email            : "isangmin219@gmail.com"
   links:
