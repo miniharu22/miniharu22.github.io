@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Done is better than Perfect"
+title                    : "My Research Note"
 title_separator          : "|"
 subtitle                 : "SINCE 2023"
 name                     : "Lee SangMin"
