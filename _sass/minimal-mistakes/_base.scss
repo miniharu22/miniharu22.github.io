@@ -6,15 +6,15 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
+ //포스트 글 폰트 font-family: $global-font-family;
+  font-family: $myfont_post; 
+
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -65,10 +65,34 @@ small,
   font-size: $type-size-6;
 }
 
+// 토글 리스트 
+summary {
+  cursor:pointer;
+  color: mix($text-color, #cece4be9, 50%);
+}
+
+//추가
+summary:hover { 
+  font-weight: 700;
+}
+    
+
 p {
   margin-bottom: 1.3em;
 }
 
+// 밑줄 커스텀
+u,
+ins {
+  text-decoration: none;
+  border-bottom: 1px solid mix(#000, $link-color, 15%);
+  padding-bottom: 0.1em;
+  a {
+    color: inherit;
+  }
+}
+
+/* 원본
 u,
 ins {
   text-decoration: none;
@@ -77,10 +101,18 @@ ins {
     color: inherit;
   }
 }
+*/
 
 del a {
   color: inherit;
 }
+
+/* devinlife comment: 구글 애드 센스 아래 바 레이아웃 삭제
+ https://github.com/mmistakes/minimal-mistakes/issues/306 */
+ ins.adsbygoogle {
+  border-bottom: none !important;
+}
+
 
 /* reduce orphans and widows when printing */
 
@@ -109,18 +141,18 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin-block: 2em;
-  margin-inline-end: 1em;
-  padding-inline: 1em;
+  margin: 2em 1em 2em 0;
+  padding-left: 1em;
+  padding-right: 1em;
   font-style: italic;
-  border-inline-start: 0.25em solid $primary-color;
+  border-left: 0.25em solid mix(#000, $link-color, 25%);
 
   cite {
     font-style: italic;
 
-    &::before {
+    &:before {
       content: "\2014";
-      padding-inline-end: 5px;
+      padding-right: 5px;
     }
   }
 }
@@ -128,13 +160,15 @@ blockquote {
 /* links */
 
 a {
+
   &:focus {
     @extend %tab-focus;
   }
 
+ /* 방문 포스트 글 색상 변경 
   &:visited {
     color: $link-color-visited;
-  }
+  } */
 
   &:hover {
     color: $link-color-hover;

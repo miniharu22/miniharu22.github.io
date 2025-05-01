@@ -3,6 +3,7 @@
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
+<div class="author_flex-container">
   {% if author.avatar %}
     <div class="author__avatar">
       <a href="{{ author.home | default: '/' | absolute_url }}">
@@ -15,7 +16,12 @@
     <h3 class="author__name p-name" itemprop="name">
       <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
     </h3>
-    {% if author.bio %}
+  </div>
+
+</div>
+  <!-- author__content bio 분리-->
+  <div class="author__content_bio">
+      {% if author.bio %}
       <div class="author__bio p-note" itemprop="description">
         {{ author.bio | markdownify }}
       </div>
