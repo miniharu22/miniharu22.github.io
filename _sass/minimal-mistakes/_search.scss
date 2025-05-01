@@ -8,22 +8,69 @@
   }
 }
 
+.dark__toggle {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: $nav-toggle-height;
+  border: 0;
+  outline: none;
+  color: $text-color; // $primary-color;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: none;
+  
+// 클릭 시 생성되는 테두리 제거  
+  &:focus{
+    border: 0;
+    outline: none;
+  }
+
+  &:hover {
+    color: $primary-color;
+    border: 0;
+  }
+
+  &:active{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: $primary-color;
+    border: 0;
+    transform: rotate(30deg);
+  }
+
+}
+
 .search__toggle {
   margin-left: 1rem;
   margin-right: 1rem;
   height: $nav-toggle-height;
   border: 0;
   outline: none;
-  color: $primary-color;
+  color: $text-color; // $primary-color;
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 
+  &:focus {
+      border: 0;
+      outline: none;
+    }
+
   &:hover {
-    color: mix(#000, $primary-color, 25%);
+    color: $primary-color;
   }
+
+  &:active{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: $primary-color;
+  }
+
 }
+
 
 .search-icon {
   width: 100%;

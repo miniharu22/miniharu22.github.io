@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "HOME"
-    url: https://sun0te.github.io
-  - title: "Category"
-    url: /categories/
-  - title: "🔍"
-    url: /search/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  #- title: home
+  #  url: https://sun0te.github.io/
+
+  - title: "Posts"
+    url: /year-archive/
+  
+  #- title: "Category"
+  #  url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
