@@ -599,17 +599,17 @@ ko: &DEFAULT_KO
   skip_content               :
   skip_footer                :
   page                       : "페이지"
-  pagination_previous        : "Previous"
-  pagination_next            : "Next"
+  pagination_previous        : "이전"
+  pagination_next            : "다음"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "Category list"
   search_label               :
-  toc_label                  : "Table of contents"
+  toc_label                  : "On This Page"
   ext_link_label             : "직접 링크"
   less_than                  : "최대"
   minute_read                : "분 소요"
-  share_on_label             : "Share on"
+  share_on_label             : "공유하기"
   meta_label                 :
   tags_label                 : "태그:"
   categories_label           : "카테고리:"
@@ -617,7 +617,7 @@ ko: &DEFAULT_KO
   comments_label             : "댓글남기기"
   comments_title             : "댓글"
   more_label                 : "더 보기"
-  related_label              : "Recent posts"
+  related_label              : "참고"
   follow_label               : "팔로우:"
   feed_label                 : "피드"
   powered_by                 : "Powered by"

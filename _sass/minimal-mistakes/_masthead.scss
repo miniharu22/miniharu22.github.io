@@ -16,9 +16,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    //메뉴바 padding 조절
-    //padding: 1em;
-    padding: 0.4em;
+    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -27,8 +25,8 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     //home, category, search font
-    font-family: $myfont_main_title;
-    font-size: 1.3em; //$type-size-4;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-4;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -48,13 +46,13 @@
   max-height: 2rem;
 }
 
-//블로그 이름 / 타이틀 디자인
+//블로그 타이틀 디자인
 .site-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
-  font-family: $myfont_main_title;
+  font-family: $myfont_title;
   font-size: $type-size-4;
   font-weight: bold;
   // z-index: 20;
@@ -63,7 +61,6 @@
 .site-subtitle {
   display: block;
   font-size: $type-size-8;
-  font-family: $myfont_main_title;
 }
 
 .masthead__menu {
