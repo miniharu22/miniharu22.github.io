@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hi"
+title                    : "My Reseach Note"
 title_separator          : "|"
-subtitle                 : "MY Research Note"
+subtitle                 : "SINCE 2023"
 name                     : "Lee SangMin"
 description              : 
 url                      : "https://miniharu22.github.io"
