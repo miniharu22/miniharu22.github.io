@@ -14,21 +14,14 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "GowunDodum-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+// $sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI",
+$sans-serif: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
-$myfont_grid_title: "NEXON Lv1 Gothic OTF" !default;
-$myfont_title: "GowunBatang-Regular" !default;
-$myfont_main_title: "NEXON Lv1 Gothic OTF" !default; //set main.scss
-$myfont_post: "GyeonggiBatang" !default;  
-$myfont_recent: "Ycomputer-Regular" !default;
-$myfont: "Cafe24SsurroundAir" !default; //set main.scss
-$myfont_a1: "GothicA1-Light" !default; //set main.scss
-$cursive: "Cafe24Shiningstar" !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: "Cafe24SsurroundAir", Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -38,7 +31,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $myfont_grid_title !default;   //$sans-serif
+$header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -157,22 +150,15 @@ $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
-
-// 전체 페이지 최종 사이드 여백
-$max-width:87%;
-//$max-width: $x-large !default;
+$max-width: $x-large !default;
 
 /*
    Grid
    ========================================================================== */
 
-   $right-sidebar-width-narrow: 180px !default; 
-   $right-sidebar-width: 250px !default;  
-   $right-sidebar-width-wide: 300px !default;
-
-// $right-sidebar-width-narrow: 200px !default;
-// $right-sidebar-width: 300px !default;
-// $right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 100px !default; //초기값 200px
+$right-sidebar-width: 200px !default; // 300
+$right-sidebar-width-wide: 250px !default; // 400
 
 /*
    Other

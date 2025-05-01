@@ -11,29 +11,30 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin2    : "dark"
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "My Reseach Note"
 title_separator          : "|"
-subtitle                 : "SINCE 2023" # site tagline that appears below site title in masthead
+subtitle                 : "SINCE 2023"
 name                     : "Lee SangMin"
-description              : ""
-url                      : "https://miniharu22.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "miniharu22/miniharu22.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/teaser_post.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "favicon-32x32.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+description              : 
+url                      : "https://miniharu22.github.io"
+baseurl                  : ""  # the subpath of your site, e.g. "/blog"
+repository               : miniharu22/miniharu22.github.io
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/pixel.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
+
+# disqus 댓글기능 활성화
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "miniharu22-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "miniharu22-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -60,11 +61,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : true   # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
-lunr:
-  search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -74,9 +73,9 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : 
+google_site_verification :
 bing_site_verification   :
-naver_site_verification  :
+naver_site_verification  : 
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -100,23 +99,24 @@ analytics:
   provider               :  # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : 
-    anonymize_ip         : false # true, false (default)
+    anonymize_ip         :  # true, false (default)
 
 
 # Site Author
 author:
   name             : "LEE SANGMIN"
-  avatar           : "/assets/images/myface.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  avatar           : "/assets/images/myface.jpg"
+  bio              : " "
   location         : "Seoul, Republic of korea"
   email            : "isangmin219@gmail.com"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://miniharu22.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/miniharu22"
+     - label: "Website"
+       icon: "fas fa-fw fa-link"
+       url: "https://miniharu22.github.io"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: "https://github.com/miniharu22"
+
 
 # Site Footer
 footer:
@@ -127,6 +127,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/miniharu22"
+
 
 
 # Reading Files
@@ -185,10 +186,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-    #code block line number 추가
-  syntax_highlighter_opts:
-   block:
-    line_numbers: true
 
 
 # Sass/SCSS
@@ -199,9 +196,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 6 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone:  Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
@@ -238,16 +235,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression

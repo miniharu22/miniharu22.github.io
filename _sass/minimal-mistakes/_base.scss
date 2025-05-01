@@ -12,9 +12,7 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
- //포스트 글 폰트 font-family: $global-font-family;
-  font-family: $myfont_post; 
-
+  font-family: $global-font-family;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -65,34 +63,10 @@ small,
   font-size: $type-size-6;
 }
 
-// 토글 리스트 
-summary {
-  cursor:pointer;
-  color: mix($text-color, #cece4be9, 50%);
-}
-
-//추가
-summary:hover { 
-  font-weight: 700;
-}
-    
-
 p {
   margin-bottom: 1.3em;
 }
 
-// 밑줄 커스텀
-u,
-ins {
-  text-decoration: none;
-  border-bottom: 1px solid mix(#000, $link-color, 15%);
-  padding-bottom: 0.1em;
-  a {
-    color: inherit;
-  }
-}
-
-/* 원본
 u,
 ins {
   text-decoration: none;
@@ -101,18 +75,10 @@ ins {
     color: inherit;
   }
 }
-*/
 
 del a {
   color: inherit;
 }
-
-/* devinlife comment: 구글 애드 센스 아래 바 레이아웃 삭제
- https://github.com/mmistakes/minimal-mistakes/issues/306 */
- ins.adsbygoogle {
-  border-bottom: none !important;
-}
-
 
 /* reduce orphans and widows when printing */
 
@@ -145,7 +111,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid mix(#000, $link-color, 25%);
+  border-left: 0.25em solid $primary-color;
 
   cite {
     font-style: italic;
@@ -160,15 +126,15 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none; // 밑줄없애는코드 새로추가함
 
   &:focus {
     @extend %tab-focus;
   }
 
- /* 방문 포스트 글 색상 변경 
   &:visited {
     color: $link-color-visited;
-  } */
+  }
 
   &:hover {
     color: $link-color-hover;
@@ -194,6 +160,24 @@ pre {
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: 0.8em;
+  background: $code-background-color;
+  border-radius: $border-radius;
+
+  &:before,
+  &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
 }
 
 /* horizontal rule */

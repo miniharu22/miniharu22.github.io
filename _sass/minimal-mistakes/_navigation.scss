@@ -6,14 +6,13 @@
    Breadcrumb navigation links
    ========================================================================== */
 
-   // 포스트 글 상단에 위치한 포스트 경로 ex)Home/Certificate_eip/[정보처리기사 실기]...
 .breadcrumbs {
   @include clearfix;
-  margin: 0 1em;//0 auto;
+  margin: 0 auto;
   max-width: 100%;
-  padding-left: 6.7%;
-  padding-right: 6.7%;
-  font-family: $myfont_main_title;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: $sans-serif;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
@@ -26,7 +25,7 @@
   ol {
     padding: 0;
     list-style: none;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
 
     @include breakpoint($large) {
       float: right;
@@ -55,12 +54,10 @@
   @include clearfix();
   float: left;
   margin-top: 1em;
-  text-align: center; //추가
   padding-top: 1em;
   width: 100%;
 
   ul {
-    display: inline-block; //block;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -68,8 +65,8 @@
   }
 
   li {
-    display: inline-block;  //block;
-    //float: left;
+    display: block;
+    float: left;
     margin-left: -1px;
 
     a {
@@ -440,38 +437,13 @@
   }
 }
 
-//전체 글 수 폰트
-.list_all {
-  font-size: $type-size-6;
-  font-family: $myfont;
-
-}
-
-//메인홈 왼쪽 카테고리 목록 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.4em;//1.25rem;
-  font-family: $myfont;
-  // font-weight: bold;
- 
- 
-   img { // 방문자수 이미지 크기 조절 
-     width: auto; height: auto;
-     max-width: 140px;
-     max-height: 38px;
-     margin-bottom: 1em;
-   }
- 
-   a {
-     color: inherit;
-     font-size: 1.2em;
-     font-family: $myfont_grid_title;
-     color: mix($primary-color, $text-color, 20%);  // mix(#fff, $primary-color, 80%);
- 
-     &:hover {
-       text-decoration: underline;
-     }
-   }
+  font-size: 1.25rem;
+
+  a {
+    color: inherit;
+  }
 
   .active {
     margin-left: -0.5em;
@@ -507,22 +479,21 @@
     transform: translate(0, 0);
   }
 }
-//포스트 안 목차 묶음 제목
+
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: $myfont_grid_title;
-  font-size: $type-size-4;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
   font-weight: bold;
 }
-//왼쪽 카테고리 큰 목차 
+
 .nav__sub-title {
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $myfont_grid_title;
-  font-size: 0.85em;
-  color: $subtitle; 
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -531,32 +502,30 @@
 /*
      Table of contents navigation
      ========================================================================== */
-//포스팅글 안의 목차 나열바
+
 .toc {
-  font-family: $myfont_a1;
+  font-family: $sans-serif-narrow;
   color: $gray;
   background-color: $background-color;
-  //border: 1px solid $border-color;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
 
   .nav__title {
-    font-family: $myfont_main_title;
-    color: $text-color;
-    font-size: 15px;
-    background: mix(rgb(122, 122, 122), $background-color, 10%); 
+    color: #fff;
+    font-size: $type-size-6;
+    /*background: $primary-color;*/
+    background: #b0b0d4;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
 
-  // 백그라운드 대신 글자 강조
+  // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    // @include yiq-contrasted($active-color);
-    font-weight: bold;
+    @include yiq-contrasted($active-color);
   }
 }
-
 
 .toc__menu {
   margin: 0;
@@ -566,14 +535,14 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: 13px;
+    font-size: $type-size-7;
   }
 
   a {
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
-    //font-weight: bold;
+    font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
