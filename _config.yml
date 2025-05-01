@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Hi"
 title_separator          : "|"
 subtitle                 : "MY Research Note"
 name                     : "Lee SangMin"
