@@ -277,3 +277,9 @@ defaults:
 
 date_format: "%Y-%m-%d"
 
+markdown: kramdown
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
