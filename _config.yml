@@ -13,7 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+dark_theme_toggle        : true  
 
 
 # Site Settings
@@ -277,6 +277,3 @@ defaults:
 
 date_format: "%Y-%m-%d"
 
-
-after_footer_scripts:
-  - /assets/js/custom/dark-theme.js
