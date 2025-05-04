@@ -256,6 +256,26 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  research:
+    output: true
+    permalink: /:categories/:title/
+  projects:
+    output: true
+    permalink: /:categories/:title/
+  courses:
+    output: true
+    permalink: /:categories/:title/
+  achievements:
+    output: true
+    permalink: /:categories/:title/
+  gallery:
+    output: true
+    permalink: /:categories/:title/
+  woc:
+    output: true
+    permalink: /:categories/:title/
+
 
 # Defaults
 defaults:
@@ -274,7 +294,97 @@ defaults:
       sidebar:                  # 추가한 부분
         #nav: "docs"             # 추가한 부분
         nav: "sidebar-category" # 추가한 부분 !
-
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+  # _courses
+  - scope:
+      path: "_courses"
+      type: courses
+    values:
+      layout: single
+      show_date: false
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+      mathjax: true
+  # _achievements
+  - scope:
+      path: "_achievements"
+      type: achievements
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _publications
+  - scope:
+      path: "_publications"
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _gallery
+  - scope:
+      path: "_gallery"
+      type: gallery
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _woc
+  - scope:
+      path: ""
+      type: woc
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+      
 date_format: "%Y-%m-%d"
 
 markdown: kramdown
