@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "About Me"
-    url: /resume/
   - title: "Category"
     url: /categories/
   - title: "Tag"
