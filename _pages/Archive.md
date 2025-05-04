@@ -1,15 +1,14 @@
 ---
 layout: archive
-permalink: /projects/
-title: "My Projects"
+permalink: /Archive/
+title: "Archive"
 author_profile: true
+sidebar_main: true
 header:
   overlay_image: /assets/images/post1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
-
-Welcome to my projects page!
 
 <div class="grid__wrapper">
   {% assign collection = 'projects' %}

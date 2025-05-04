@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - projects
+  - Archive
 
 tags:
   - COVID-19
