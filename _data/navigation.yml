@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Hobby"
-    url: /hobby/
   - title: "Category"
     url: /categories/
   - title: "Tag"
