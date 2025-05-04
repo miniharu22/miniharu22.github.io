@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /Archive/
+permalink: /projects/
 title: "Archive"
 author_profile: true
 sidebar_main: true

@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Archive"
-    url: /Archive/
+    url: /projects/
   - title: "Category"
     url: /categories/
   - title: "Tag"
