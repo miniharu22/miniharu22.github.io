@@ -1,5 +1,4 @@
 ---
-order: 10
 title: "Z-Stamp (Cubictek)"
 excerpt: "박판 성형해석 시뮬레이터 Pre / Post / Solver Manager 개발."
 header:

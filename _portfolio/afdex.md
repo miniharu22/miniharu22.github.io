@@ -1,5 +1,4 @@
 ---
-order: 70
 title: "AFDEX (MFRC)"
 excerpt: "범용 금형해석 프로그램 전/후 처리기 신제품 개발 컨설팅 및 기술 지원"
 header:

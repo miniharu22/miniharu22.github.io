@@ -1,5 +1,4 @@
 ---
-order: 40
 title: "PacsPlus (MedicalStandard)"
 excerpt: "임상의를 위해 기존 전문가 뷰어의 GUI를 새롭게 개발하여, 획득 이미지를 빠르고 쉽게 검색하고 사용 하도록 개선."
 header:

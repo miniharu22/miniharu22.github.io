@@ -1,5 +1,4 @@
 ---
-order: 50
 title: "DOE/RSM 전/후 처리기"
 excerpt: "기존에 개발된 CLI와 솔버의 연동을 GUI 기반으로 새롭게 개발."
 header:

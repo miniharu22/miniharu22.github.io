@@ -1,5 +1,4 @@
 ---
-order: 30
 title: "EasyBender (Seoul D&S)"
 excerpt: "벤딩머신 제어 프로그램으로서 CAD 도면을 읽고 벤딩 머신의 조건에 따른 모터제어 및 기기제어."
 header:

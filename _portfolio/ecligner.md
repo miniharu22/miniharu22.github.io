@@ -1,5 +1,4 @@
 ---
-order: 60
 title: "eCligner (KVTechnology)"
 excerpt: "다중 플랫폼을 지원하는 3D 치아 교정 프로그램"
 header:
