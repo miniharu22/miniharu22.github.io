@@ -3,7 +3,7 @@ title: "TCAD Practice"
 excerpt: ""
 toc: true
 toc_sticky: true
-redirect_to: /TCAD_Practice/
+redirect_to: https://miniharu22.github.io/TCAD_Practice
 categories:
   - projects
 
