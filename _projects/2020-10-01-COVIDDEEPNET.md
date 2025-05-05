@@ -3,7 +3,7 @@ title: "TCAD Practice"
 excerpt: ""
 toc: true
 toc_sticky: true
-permalink: /MOSCAP
+permalink: /MOSCAP/
 categories:
   - projects
 
