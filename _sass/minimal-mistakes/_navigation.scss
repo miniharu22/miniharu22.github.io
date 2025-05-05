@@ -59,6 +59,7 @@
       width: 100%;
     
       ul {
+        display: inline-block; //block;
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -66,7 +67,7 @@
       }
     
       li {
-        display: block;
+        display: inline-block;  //block;
         //float: left;
         margin-left: -1px;
     
@@ -117,7 +118,7 @@
           }
         }
       }
-    }
+     }
     
     .pagination_prev_next {
       @include clearfix();
