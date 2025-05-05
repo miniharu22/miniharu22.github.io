@@ -3,7 +3,7 @@ title: "TCAD Practice"
 excerpt: ""
 toc: true
 toc_sticky: true
-permalink: /TCAD_Practice/
+redirect_to: /TCAD_Practice/
 categories:
   - projects
 
@@ -21,4 +21,6 @@ header:
 
 use_math: true
 ---
+
+
 
