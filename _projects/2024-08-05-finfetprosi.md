@@ -1,6 +1,6 @@
 ---
 title: "FinFET Process Simulation"
-excerpt: "Design a 22nm FinFET and compare its perfomance with 180nm MOSFET. Explore Body biasing and Fin height variation as methods to improve performance.  "
+excerpt: "Design a 22nm FinFET and compare its perfomance with 180nm MOSFET. Explore Body biasing and Fin height variation as methods to improve performance."
 toc: true
 toc_sticky: true
 redirect_to: https://miniharu22.github.io/FinFET_Process_Simulation
