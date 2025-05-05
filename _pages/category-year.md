@@ -1,5 +1,5 @@
 ---
-title: "Posts by Year"
+title: "Year"
 permalink: /year/
 layout: posts
 excerpt: "Classify all posts by year."

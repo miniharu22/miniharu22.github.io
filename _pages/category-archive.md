@@ -1,5 +1,5 @@
 ---
-title: "Posts by Category"
+title: "Category"
 layout: categories
 permalink: /categories/
 excerpt: "Classify all posts by category."

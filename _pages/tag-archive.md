@@ -1,5 +1,5 @@
 ---
-title: "Posts by Tag"
+title: "Tag"
 layout: tags
 permalink: /tags/
 excerpt: "Classify all posts by tag."
