@@ -2,6 +2,7 @@
 title: "Posts by Tag"
 layout: tags
 permalink: /tags/
+excerpt: "Classify all posts by tag."
 author_profile: true
 sidebar_main: true
 sidebar:

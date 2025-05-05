@@ -2,6 +2,7 @@
 title: "Posts by Year"
 permalink: /year/
 layout: posts
+excerpt: "Classify all posts by year."
 author_profile: true
 sidebar_main: true
 sidebar:
