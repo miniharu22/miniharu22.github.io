@@ -1,7 +1,7 @@
 ---
 title: "MOSFET Process Simulation"
 layout: archive
-excerpt: "Design a 180nm MOSFET with Sentaurus Process and check its characteritics using Sentaurus Device."
+excerpt: "Design a 180nm Planar MOSFET with Sentaurus Process and check its characteritics by using Sentaurus Device."
 permalink: /MOSFET_Process_Simulation
 sidebar:
     nav: "sidebar-category"

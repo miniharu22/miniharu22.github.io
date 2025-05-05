@@ -1,6 +1,6 @@
 ---
 title: "MOSFET Process Simulation"
-excerpt: "Design a 180nm MOSFET with Sentaurus Process and check its characteritics using Sentaurus Device."
+excerpt: "Design a 180nm Planar MOSFET with Sentaurus Process and check its characteritics by using Sentaurus Device."
 toc: true
 toc_sticky: true
 redirect_to: https://miniharu22.github.io/MOSFET_Process_Simulation
