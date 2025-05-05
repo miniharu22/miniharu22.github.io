@@ -4,6 +4,8 @@ layout: archive
 permalink: /TCAD_Practice
 sidebar:
     nav: "sidebar-category"
+redirect_from:
+    - /2020-10-01-COVIDDEEPNET.md
 header:
   overlay_image: /assets/images/post1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
