@@ -12,5 +12,15 @@ header:
 ---
 
 
+
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
 {% assign posts = site.categories.TCAD_Practice %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+
+{% include paginator.html %}

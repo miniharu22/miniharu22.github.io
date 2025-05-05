@@ -7,7 +7,7 @@ redirect_to: https://miniharu22.github.io/TCAD_Practice
 categories:
   - projects
 
-last_modified_at: 2020-10-01T08:06:00-05:00
+last_modified_at: 2024-12-09
 
 header:
   teaser: "/assets/images/syn.png"
