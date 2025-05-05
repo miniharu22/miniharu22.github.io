@@ -2,6 +2,8 @@
 title: "TCAD_Practice"
 layout: archive
 permalink: /TCAD_Practice
+sidebar:
+    nav: "sidebar-category"
 ---
 
 

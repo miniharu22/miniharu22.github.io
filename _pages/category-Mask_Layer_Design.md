@@ -2,6 +2,8 @@
 title: "Mask_Layer_Design"
 layout: archive
 permalink: /Mask_Layer_Design
+sidebar:
+    nav: "sidebar-category"
 ---
 
 

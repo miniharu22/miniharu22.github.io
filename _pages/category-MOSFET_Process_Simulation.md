@@ -2,6 +2,8 @@
 title: "MOSFET_Process_Simulation"
 layout: archive
 permalink: /MOSFET_Process_Simulation
+sidebar:
+    nav: "sidebar-category"
 ---
 
 

@@ -2,6 +2,8 @@
 title: "MOSFET_Process"
 layout: archive
 permalink: /MOSFET_Process
+sidebar:
+    nav: "sidebar-category"
 ---
 
 

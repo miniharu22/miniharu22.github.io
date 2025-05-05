@@ -2,6 +2,8 @@
 title: "FinFET_Process_Simulation"
 layout: archive
 permalink: /FinFET_Process_Simulation
+sidebar:
+    nav: "sidebar-category"
 ---
 
 
