@@ -56,7 +56,7 @@ sidebar-category:
         url: "MOSFET_Process_Simulation"
         category: "MOSFET_Process_Simulation"
 
-      - title: "FinFET_Process_Simulation"
+      - title: "FinFET Process Simulation"
         url: "FinFET_Process_Simulation"
         category: "FinFET_Process_Simulation"
 

@@ -1,5 +1,5 @@
 ---
-title: "FinFET_Process_Simulation"
+title: "FinFET Process Simulation"
 layout: archive
 permalink: /FinFET_Process_Simulation
 sidebar:
