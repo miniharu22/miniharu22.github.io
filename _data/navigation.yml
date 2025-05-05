@@ -46,27 +46,12 @@ main:
 #         url: /categories/#MFC
 
 sidebar-category:
-  - title: "Sentaurus TCAD Practice"
+  - title: "Sentaurus TCAD"
     children:
-      - title: "MOSCAP"
-        url: "MOSCAP"
-        category: "MOSCAP"
-      
-      - title: "MOSFET"
-        url: "MOSFET"
-        category: "MOSFET"
-      
-      - title: "Inspect"
-        url: "Inspect"
-        category: "Inspect"
-      
-      - title: "CMOS"
-        url: "CMOS"
-        category: "CMOS"
+      - title: "TCAD Practice"
+        url: "TCAD_Practice"
+        category: "TCAD_Practice"
 
-
-  - title: "Sentaurus TCAD Project"
-    children:
       - title: "MOSFET_Process_Simulation"
         url: "MOSFET_Process_Simulation"
         category: "MOSFET_Process_Simulation"

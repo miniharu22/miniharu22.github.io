@@ -1,9 +1,9 @@
 ---
-title: "MOSCAP"
+title: "TCAD_Practice"
 layout: archive
-permalink: /MOSCAP
+permalink: /TCAD_Practice
 ---
 
 
-{% assign posts = site.categories.MOSCAP %}
+{% assign posts = site.categories.TCAD_Practice %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
