@@ -10,7 +10,7 @@ categories:
 last_modified_at: 2024-09-08
 
 header:
-  teaser: "/assets/images/syn1.png"
+  teaser: "/assets/images/syn2.png"
 
 use_math: true
 ---
