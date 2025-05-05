@@ -52,7 +52,7 @@ sidebar-category:
         url: "TCAD_Practice"
         category: "TCAD_Practice"
 
-      - title: "MOSFET_Process_Simulation"
+      - title: "MOSFET Process Simulation"
         url: "MOSFET_Process_Simulation"
         category: "MOSFET_Process_Simulation"
 
