@@ -1,6 +1,7 @@
 ---
 title: "TCAD Practice"
 layout: archive
+excerpt: "Through MOSCAP and MOSFET simulations, Practice using Sentaurus TCAD tools. Also, Analyze simulation results based on Device physics."
 permalink: /TCAD_Practice
 sidebar:
     nav: "sidebar-category"
