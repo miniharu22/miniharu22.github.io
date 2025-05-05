@@ -8,7 +8,6 @@ categories:
   - projects
 
 
-
 last_modified_at: 2020-10-01T08:06:00-05:00
 
 header:
@@ -22,3 +21,4 @@ header:
 
 use_math: true
 ---
+
