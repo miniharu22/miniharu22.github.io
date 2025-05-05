@@ -3,6 +3,8 @@ layout: archive
 permalink: /projects/
 title: "Archive"
 author_profile: true
+sidebar:
+    nav: "sidebar-category"
 toc: true
 toc_sticky: true
 header:
