@@ -2,6 +2,7 @@
 layout: archive
 permalink: /projects/
 title: "Archive"
+excerpt: "A comprehensive summary of all the research, project, study, and hands-on practice I have undertaken."
 author_profile: true
 sidebar:
     nav: "sidebar-category"
