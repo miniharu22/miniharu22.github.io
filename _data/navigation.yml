@@ -4,10 +4,13 @@ main:
     url: /cv/
   - title: "Archive"
     url: /projects/
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
+  - title: classify
+    sublinks:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+
 
  #- title: "About"
  #  url: https://mmistakes.github.io/minimal-mistakes/about/
