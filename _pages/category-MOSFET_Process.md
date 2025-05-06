@@ -1,5 +1,5 @@
 ---
-title: "MOSFET_Process"
+title: "MOSFET FEOL Process"
 layout: archive
 permalink: /MOSFET_Process
 sidebar:
