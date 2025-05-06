@@ -262,10 +262,10 @@ collections:
   research:
     output: true
     permalink: /:categories/:title/
-  projects:
+  tcad :
     output: true
     permalink: /:categories/:title/
-  courses:
+  fab :
     output: true
     permalink: /:categories/:title/
   achievements:
