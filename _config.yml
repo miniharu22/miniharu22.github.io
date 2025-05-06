@@ -22,7 +22,7 @@ title                    : "Research Archive"
 title_separator          : "|"
 subtitle                 : "SINCE 2023"
 name                     : "Lee SangMin"
-description              : "Device engineer interested in nano-devices and AI"
+description              : 
 url                      : "https://miniharu22.github.io"
 baseurl                  : ""  # the subpath of your site, e.g. "/blog"
 repository               : miniharu22/miniharu22.github.io
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "LEE SANGMIN"
   avatar           : "/assets/images/myface.jpg"
-  bio              : " "
+  bio              : "Device engineer interested in nano-devices & AI Technology"
   location         : "Seoul, Republic of korea"
   email            : "isangmin219@gmail.com"
   links:
