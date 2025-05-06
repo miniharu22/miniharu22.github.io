@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "CV"
+    url: /cv/
   - title: "Archive"
     url: /projects/
   - title: "Category"
@@ -8,8 +10,7 @@ main:
     url: /tags/
   - title: "Year"
     url: /year/
-  - title: "CV"
-    url: /cv/
+
  #- title: "About"
  #  url: https://mmistakes.github.io/minimal-mistakes/about/
  #- title: "Sample Posts"
