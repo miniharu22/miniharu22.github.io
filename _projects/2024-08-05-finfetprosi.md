@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 redirect_to: https://miniharu22.github.io/FinFET_Process_Simulation
 categories:
-  - projects
+  - tcad
 
 last_modified_at: 2024-09-08
 
