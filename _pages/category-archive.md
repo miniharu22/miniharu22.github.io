@@ -13,19 +13,20 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <a href="/assets/CV.pdf" download style="
-    padding: 10px 16px;
-    background-color: #6a1b9a;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 14px;
-  ">
-    📄 Download current CV
-  </a>
-</div>
+<a href="/assets/certificate.pdf" download style="
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 16px;
+  background-color: #6a1b9a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+">
+  📄 Download Certificate
+</a>
 
-<div style="width: 100%; max-width: 900px; height: 80vh; margin: 0 auto; overflow: auto; box-shadow: 0 0 5px rgba(0,0,0,0.1); border: 1px solid #ddd;">
-  <embed src="/assets/CV.pdf#toolbar=1&navpanes=0&scrollbar=1" type="application/pdf" width="100%" height="100%">
+<div style="height: 90vh; overflow: auto; max-width: 1000px; margin: 0 auto;">
+  <embed src="/assets/certificate.pdf#toolbar=1&navpanes=0&scrollbar=1" type="application/pdf" width="100%" height="100%">
 </div>
