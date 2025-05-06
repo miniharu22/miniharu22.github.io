@@ -2,12 +2,16 @@
 main:
   - title: "Archive"
     url: /projects/
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
-  - title: "Year"
-    url: /year/
+    
+  - title: "Classify"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+      - title: "Year"
+        url: /year/
+
   - title: "CV"
     url: /cv/
  #- title: "About"
