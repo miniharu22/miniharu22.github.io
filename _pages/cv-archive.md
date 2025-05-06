@@ -1,5 +1,5 @@
 ---
-title: "Category"
+title: "Curriculum-Vitae"
 layout: archive
 permalink: /cv/
 excerpt: "Classify all posts by category."
