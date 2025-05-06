@@ -62,7 +62,7 @@ sidebar-category:
         category: "FinFET_Process_Simulation"
 
   
-  - title: "Layout Design"
+  - title: "Layout"
     children:
       - title: "Mask Layer Design"
         url: "Mask_Layer_Design"

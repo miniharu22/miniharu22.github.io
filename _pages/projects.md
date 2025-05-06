@@ -25,7 +25,7 @@ header:
 ## Fabrication
 
 <div class="grid__wrapper">
-  {% assign collection = 'fab' %}
+  {% assign collection = 'layout' %}
   {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
     {% include archive-single.html type="grid" %}
