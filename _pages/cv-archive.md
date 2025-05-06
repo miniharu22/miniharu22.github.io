@@ -2,7 +2,7 @@
 title: "Curriculum-Vitae"
 layout: archive
 permalink: /cv/
-excerpt: "Classify all posts by category."
+excerpt: "An overview of my education, research, and work experience."
 author_profile: true
 sidebar_main: true
 sidebar:
