@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 redirect_to: https://miniharu22.github.io/MOSFET_Process_Simulation
 categories:
-  - projects
+  - fab
 
 last_modified_at: 2024-07-29
 

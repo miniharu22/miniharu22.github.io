@@ -15,7 +15,7 @@ header:
 ---
 
 <div class="grid__wrapper">
-  {% assign collection = 'tcad' %}
+  {% assign collection = 'fab' %}
   {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
     {% include archive-single.html type="grid" %}
@@ -24,7 +24,7 @@ header:
 
 
 <div class="grid__wrapper">
-  {% assign collection = 'projects' %}
+  {% assign collection = 'tcad' %}
   {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
     {% include archive-single.html type="grid" %}
