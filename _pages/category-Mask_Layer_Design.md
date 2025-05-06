@@ -1,5 +1,5 @@
 ---
-title: "Mask_Layer_Design"
+title: "Mask Layer Design"
 layout: archive
 permalink: /Mask_Layer_Design
 sidebar:

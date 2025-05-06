@@ -63,7 +63,7 @@ sidebar-category:
   
   - title: "Layout Design"
     children:
-      - title: "Mask_Layer_Design"
+      - title: "Mask Layer Design"
         url: "Mask_Layer_Design"
         category: "Mask_Layer_Design"
 
