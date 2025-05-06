@@ -29,7 +29,7 @@ header:
   font-size: 16px;
 ">
   <i class="fa-solid fa-file-arrow-down" style="margin-right: 6px;"></i>
-  Download Certificate
+  Download current CV
 </a>
 
 <!-- PDF 뷰어 -->
