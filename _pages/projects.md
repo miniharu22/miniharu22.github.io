@@ -22,7 +22,7 @@ header:
   {% endfor %}
 </div>
 
-## Layout Design
+# Layout Design
 
 <div class="grid__wrapper">
   {% assign collection = 'layout' %}
