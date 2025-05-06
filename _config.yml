@@ -265,7 +265,7 @@ collections:
   tcad :
     output: true
     permalink: /:categories/:title/
-  fab :
+  layout :
     output: true
     permalink: /:categories/:title/
   achievements:
