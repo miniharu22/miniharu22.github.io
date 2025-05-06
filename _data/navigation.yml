@@ -8,6 +8,8 @@ main:
     url: /tags/
   - title: "Year"
     url: /year/
+  - title: "CV"
+    url: /cv/
  #- title: "About"
  #  url: https://mmistakes.github.io/minimal-mistakes/about/
  #- title: "Sample Posts"
