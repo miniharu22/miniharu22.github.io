@@ -28,5 +28,5 @@ header:
 </a>
 
 <div style="height: 90vh; overflow: auto; max-width: 1000px; margin: 0 auto;">
-  <embed src="/assets/certificate.pdf#toolbar=1&navpanes=0&scrollbar=1" type="application/pdf" width="100%" height="100%">
+  <embed src="/assets/CV.pdf#toolbar=1&navpanes=0&scrollbar=1" type="application/pdf" width="100%" height="100%">
 </div>
