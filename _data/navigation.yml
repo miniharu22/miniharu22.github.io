@@ -46,11 +46,15 @@ main:
 #         url: /categories/#MFC
 
 sidebar-category:
-  - title: "Sentaurus TCAD"
+  - title: "Device Simulation"
     children:
       - title: "TCAD Practice"
         url: "TCAD_Practice"
         category: "TCAD_Practice"
+
+      - title: "Layout Design"
+        url: "Layout_Design"
+        category: "Layout_Design"
 
       - title: "MOSFET Process Simulation"
         url: "MOSFET_Process_Simulation"
@@ -60,12 +64,6 @@ sidebar-category:
         url: "FinFET_Process_Simulation"
         category: "FinFET_Process_Simulation"
 
-  
-  - title: "Layout Design"
-    children:
-      - title: "Mask_Layer_Design"
-        url: "Mask_Layer_Design"
-        category: "Mask_Layer_Design"
 
 
   - title: "Fabrication"
