@@ -12,9 +12,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-# Sentausus TCAD
-
-&nbsp;
+# Sentausus TCAD  
 
 <div class="grid__wrapper">
   {% assign collection = 'tcad' %}
