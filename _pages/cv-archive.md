@@ -2,7 +2,7 @@
 title: "Category"
 layout: categories
 permalink: /categories/
-excerpt: "Classify all posts by category."
+excerpt: "."
 author_profile: true
 sidebar_main: true
 sidebar:

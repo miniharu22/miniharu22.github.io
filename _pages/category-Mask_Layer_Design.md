@@ -1,5 +1,5 @@
 ---
-title: "Mask Layer Design"
+title: "KLayout Layer Design"
 layout: archive
 permalink: /Mask_Layer_Design
 sidebar:
