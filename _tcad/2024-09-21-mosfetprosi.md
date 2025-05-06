@@ -1,11 +1,11 @@
 ---
-title: "Layout Design"
+title: "MOSFET Process Simulation"
 excerpt: "Design a 180nm Planar MOSFET with Sentaurus Process and check its characteritics by using Sentaurus Device."
 toc: true
 toc_sticky: true
-redirect_to: https://miniharu22.github.io/Layout_Design
+redirect_to: https://miniharu22.github.io/MOSFET_Process_Simulation
 categories:
-  - device
+  - tcad
 
 last_modified_at: 2024-07-29
 

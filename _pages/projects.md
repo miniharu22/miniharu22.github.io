@@ -12,10 +12,10 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-# Device Simulation 
+# Sentausus TCAD  
 
 <div class="grid__wrapper">
-  {% assign collection = 'device' %}
+  {% assign collection = 'tcad' %}
   {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
     {% include archive-single.html type="grid" %}

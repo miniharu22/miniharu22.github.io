@@ -1,7 +1,7 @@
 ---
-title: "Layout Design"
+title: "Mask_Layer_Design"
 layout: archive
-permalink: /Layout_Design
+permalink: /Mask_Layer_Design
 sidebar:
     nav: "sidebar-category"
 header:
@@ -11,5 +11,5 @@ header:
 ---
 
 
-{% assign posts = site.categories.Layout_Design %}
+{% assign posts = site.categories.Mask_Layer_Design %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
