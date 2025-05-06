@@ -13,6 +13,17 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-<a href="/assets/CV.pdf" download>Download current CV</a>
+<a href="/assets/CV.pdf" download style="
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #6a1b9a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 16px;
+">
+  📄 Download current CV
+</a>
 
 <embed src="/assets/CV.pdf#toolbar=1&navpanes=0&scrollbar=1" type="application/pdf" width="100%" height="800px">
