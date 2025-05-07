@@ -50,168 +50,155 @@
      Post pagination navigation links
      ========================================================================== */
 
-.pagination {
-  @include clearfix();
-  float: left;
-  margin-top: 1em;
-  padding-top: 1em;
-  width: 100%;
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-family: $sans-serif;
+     .pagination {
+      @include clearfix();
+      float: left;
+      margin-top: 1em;
+      text-align: center; //추가
+      padding-top: 1em;
+      width: 100%;
+    
+      ul {
+        display: inline-block; //block;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-family: $sans-serif;
+      }
+    
+      li {
+        display: inline-block;  //block;
+        //float: left;
+        margin-left: -1px;
+    
+        a {
+          display: block;
+          margin-bottom: 0.25em;
+          padding: 0.5em 1em;
+          font-family: $sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 1.5;
+          text-align: center;
+          text-decoration: none;
+          color: $muted-text-color;
+          border: 1px solid mix(#000, $border-color, 25%);
+          border-radius: 0;
+    
+          &:hover {
+            color: $link-color-hover;
+          }
+    
+          &.current,
+          &.current.disabled {
+            color: #fff;
+            background: $primary-color;
+          }
+    
+          &.disabled {
+            color: rgba($muted-text-color, 0.5);
+            pointer-events: none;
+            cursor: not-allowed;
+          }
+        }
+    
+        &:first-child {
+          margin-left: 0;
+    
+          a {
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+          }
+        }
+    
+        &:last-child {
+          a {
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
+          }
+        }
+      }
+    
   }
-
-  li {
-    display: block;
-    float: left;
-    margin-left: -1px;
-
-    a {
-      display: block;
-      margin-bottom: 0.25em;
-      padding: 0.5em 1em;
-      font-family: $sans-serif;
-      font-size: 14px;
-      font-weight: bold;
-      line-height: 1.5;
-      text-align: center;
-      text-decoration: none;
-      color: $muted-text-color;
-      border: 1px solid mix(#000, $border-color, 25%);
-      border-radius: 0;
-
-      &:hover {
-        color: $link-color-hover;
+    
+    
+    .pagination_prev_next {
+      @include clearfix();
+      float: left;
+      width: 100%;
+    
+      /* next/previous buttons */
+      &--pager {
+        margin-top: 0em;
+        padding-top: 0em;
+        display: block;
+        padding: 1em 2em;
+        //float: left;
+        width: 100%;
+        font-family: $sans-serif;
+        font-size: $type-size-5;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: $muted-text-color;
+        border: 1px solid mix(#fff, $border-color, 60%);
+        border-radius: $border-radius;
+    
+        .prev_next {
+          font-family: $sans-serif;
+          color:#70cce0;
+        }
+    
+        &:hover {
+          @include yiq-contrasted($muted-text-color);
+        }
+    
+        &:first-child {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+    
+        &:last-child {
+          //margin-left: -1px;
+          margin-bottom: 1em;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+    
+        &.disabled-first-child {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+          color: rgba($muted-text-color, 0.5);
+          pointer-events: none;
+          cursor: not-allowed;
+        }
+    
+        &.disabled-last-child {
+          margin-bottom: 1em;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          color: rgba($muted-text-color, 0.5);
+          pointer-events: none;
+          cursor: not-allowed;
+        }
       }
-
-      &.current,
-      &.current.disabled {
-        color: #fff;
-        background: $primary-color;
-      }
-
-      &.disabled {
-        color: rgba($muted-text-color, 0.5);
-        pointer-events: none;
-        cursor: not-allowed;
-      }
     }
-
-    &:first-child {
-      margin-left: 0;
-
-      a {
-        border-top-left-radius: $border-radius;
-        border-bottom-left-radius: $border-radius;
-      }
+    
+    .page__content + .pagination,
+    .page__meta + .pagination,
+    .page__share + .pagination,
+    .page__comments + .pagination {
+      margin-top: 2em;
+      padding-top: 2em;
+      border-top: 1px solid $border-color;
     }
-
-    &:last-child {
-      a {
-        border-top-right-radius: $border-radius;
-        border-bottom-right-radius: $border-radius;
-      }
-    }
-  }
-
-  /* next/previous buttons */
-  &--pager {
-    display: block;
-    padding: 0.55em 2em;
-    float: left;
-    width: 50%;
-    font-family: $sans-serif;
-    font-size: $type-size-5;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
-    border-radius: $border-radius;
-
-    &:hover {
-      @include yiq-contrasted($muted-text-color);
-    }
-
-    &:first-child {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    }
-
-    &:last-child {
-      margin-left: -1px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-
-    &.disabled {
-      color: rgba($muted-text-color, 0.5);
-      pointer-events: none;
-      cursor: not-allowed;
-    }
-  }
-}
-
-.page__content + .pagination,
-.page__meta + .pagination,
-.page__share + .pagination,
-.page__comments + .pagination {
-  margin-top: 2em;
-  padding-top: 2em;
-  border-top: 1px solid $border-color;
-}
 
 /*
      Priority plus navigation
      ========================================================================== */
 
 .greedy-nav {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  min-height: $nav-height;
-  background: $background-color;
-
-  a {
-    display: block;
-    margin: 0 1rem;
-    color: $masthead-link-color;
-    text-decoration: none;
-
-    &:hover {
-      color: $masthead-link-color-hover;
-    }
-
-    &.site-logo {
-      margin-left: 0;
-      margin-right: 0.5rem;
-    }
-
-    &.site-title {
-      margin-left: 1;
-      font-size: 22px;
-    }
-  }
-
-  &__toggle {
-    -ms-flex-item-align: center;
-    align-self: center;
-    height: $nav-toggle-height;
-    border: 0;
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-
-  // to be shared by both hidden link and visible link
+// to be shared by both hidden link and visible link
   .dropdown {
     // float: left;
     width: auto;
@@ -237,8 +224,6 @@
     padding: 10px;
     font-size: 15px;
   }
-
-
 
 
   .visible-links {
@@ -349,10 +334,8 @@
         border-bottom: none;
       }
     }
-
-
   }//hidden link
-} //greedy-nav
+}
 
 .no-js {
   .greedy-nav {
@@ -526,7 +509,7 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid #f2f3f3;
+  border-bottom: 1px solid $border-color;
 }
 
 /*
@@ -545,10 +528,10 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $primary-color;
+    /*background: $primary-color;*/
+    background: #b0b0d4;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
-    border-bottom: 1px solid #f2f3f3;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
@@ -601,15 +584,4 @@
   li ul li ul li ul li ul li ul > li a {
     padding-left: 3.25rem
   }
-}
-
-.progress-bar {
-    background: linear-gradient(to right, black var(--scroll), transparent 0);
-    background-repeat: no-repeat;
-    width: 100%;
-    position: fixed;
-    top: $masthead-height;
-    left: 0;
-    height: 3px;
-    z-index: 9000;
 }
