@@ -1,6 +1,5 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
@@ -9,80 +8,70 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-//$sans-serif
-@font-face {
-    font-family: 'GowunDodum-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+//  import fonts
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Overpass&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+.site-title {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
-//$myfont_go
-@font-face {
-    font-family: 'GowunBatang-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.archive__item-title{
+  font-size: 1.4em;
 }
 
-//$myfont
-@font-face {
-    font-family: 'Cafe24SsurroundAir';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.archive__item a[rel="permalink"]{
+  color: mix(#fff, #666d72, 7%);
 }
 
-//정렬이 잘 된 폰트 
-@font-face {
-    font-family: 'GothicA1-Light';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
+.archive__item {
+  a:hover{
+    color: #79b7cc;
+  }
+
+  a:visited{
+    color: mix(#fff, #666d72, 15%);
+  }
 }
 
-//$cursive
-@font-face {
-    font-family: 'Cafe24Shiningstar';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.archive__subtitle{
+  padding-bottom: 1em;
+  color: #5f85b9;
 }
 
-//$myfont_recent
-@font-face {
-    font-family: 'HBIOS-SYS';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+
+.site-title {
+
+  img{
+    margin: 0;
+    max-width:23%;
+  }
+
 }
 
-//$myfont_main_title
-@font-face {
-    font-family: 'Ycomputer-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+p > code{
+  color: #f0555a;
+  font-size: 0.95em;
 }
 
-@font-face {
-    font-family: 'NEXON Lv1 Gothic OTF';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+// base.css
+body {
+  line-height: 1.65;
 }
 
-@font-face {
-    font-family: 'GyeonggiBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+// page.css
+.page__content p, .page__content li, .page__content dl {
+  font-size: 0.9em;
 }
 
-// "Cafe24Oneprettynight"
-@font-face {
-    font-family: 'Cafe24Oneprettynight';
-    src: local('Cafe24Oneprettynight'), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.center-image
+{
+    margin: 0 auto;
+    display: block;
 }
