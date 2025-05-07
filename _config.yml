@@ -10,25 +10,33 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" #"custom", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin2    : "air"   
+
+
 # Site Settings
 locale                   : "en-US"
-title                    : "Chae Rim Kim"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Chae Rim Kim"
-description              : "A dev blog for my projects, studies and interests. 개발, 공부, 관심사를 다루는 데브 블로그 입니다 :)"
-url                      : "https://chaerim-kim.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+title                    : "Research Archive"
+title_separator          : "|"
+subtitle                 : "SINCE 2023"
+name                     : "Lee SangMin"
+description              : 
+url                      : "https://miniharu22.github.io"
+baseurl                  : ""  # the subpath of your site, e.g. "/blog"
+repository               : miniharu22/miniharu22.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # "/assets/images/logo.png"
+logo                     : "/assets/images/pixel3.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
+
+# disqus 댓글기능 활성화
 comments:
-  provider               : "disqus"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "chae-rim-kim-dev"
+    shortname            : "miniharu22-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -37,31 +45,27 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+    theme                : "github-dark" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
-search                   : true
-search_full_content      : true
-search_provider          : lunr
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -73,9 +77,9 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
+naver_site_verification  : 
 yandex_site_verification :
-naver_site_verification  :
-
+baidu_site_verification  :
 
 # Social Sharing
 twitter:
@@ -94,60 +98,41 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag"
+  provider               :  # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-0JHM0RXNSG"
-    anonymize_ip         : false # true, false (default)
+    tracking_id          : 
+    anonymize_ip         :  # true, false (default)
+
 
 # Site Author
 author:
-  name             : "Chae Rim Kim"
-  avatar           : /assets/images/crk_avatar.JPG
-  bio              : "Computer Science graduate from the University of Leeds"
-  location         : "Seoul, South Korea"
-  email            :
+  name             : "LEE SANGMIN"
+  avatar           : "/assets/images/myface.jpg"
+  bio              : "Device engineer interested in Nano-device & AI Technology"
+  location         : "Seoul, Republic of korea"
+  email            : "isangmin219@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: kcl0720@gmail.com
-    # - label: "Website"
-      # icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    # - label: "Twitter"
-      # icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    # - label: "Facebook"
-      # icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/chaerim-kim"
-    # - label: "Instagram"
-      # icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+     - label: "Website"
+       icon: "fas fa-fw fa-link"
+       url: "https://miniharu22.github.io"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: "https://github.com/miniharu22"
+     - label: "LinkedIn"
+       icon: "fab fa-fw fa-linkedin"
+       url: "https://www.linkedin.com/in/%EC%83%81%EB%AF%BC-%EC%9D%B4-604225329/"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: isangmin219@gmail.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/chaerim-kim"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/miniharu22"
+
 
 
 # Reading Files
@@ -199,7 +184,6 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
@@ -217,23 +201,28 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # 첫 페이지에보여줄 최근 게시물 수를 지정
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  - jekyll-gist
-  - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 
 # Archives
@@ -253,16 +242,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -272,46 +261,144 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  research:
+    output: true
+    permalink: /:categories/:title/
+  tcad :
+    output: true
+    permalink: /:categories/:title/
+  layout :
+    output: true
+    permalink: /:categories/:title/
+  achievements:
+    output: true
+    permalink: /:categories/:title/
+  gallery:
+    output: true
+    permalink: /:categories/:title/
+  woc:
+    output: true
+    permalink: /:categories/:title/
+
 
 # Defaults
 defaults:
-  # # sidebar
-  # - scope:
-  #     path: ""
-  #     type: docs
-  #   values:
-  #     sidebar:
-  #       title: "Categories"
-  #       nav: "docs"
-
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      # sidebar:
-      #   title: "Categories"
-      #   nav: "docs"
       layout: single
-      author_profile: false
-      read_time: true
+      author_profile: true
+     #read_time: true
       comments: true
-      share: false
+      share: true
       related: true
-      toc_ads: false
-      toc_sticky: false
-
-  # _pages
+      show_date: truesda
+      sidebar:                  # 추가한 부분
+        #nav: "docs"             # 추가한 부분
+        nav: "sidebar-category" # 추가한 부분 !
+  # _research
   - scope:
       path: ""
-      type: pages
+      type: research
     values:
-      # sidebar:
-      #   title: "Categories"
-        # nav: "docs"
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: false
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
       related: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+  # _courses
+  - scope:
+      path: "_courses"
+      type: courses
+    values:
+      layout: single
+      show_date: false
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+      mathjax: true
+  # _achievements
+  - scope:
+      path: "_achievements"
+      type: achievements
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _publications
+  - scope:
+      path: "_publications"
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _gallery
+  - scope:
+      path: "_gallery"
+      type: gallery
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _woc
+  - scope:
+      path: ""
+      type: woc
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+      
+date_format: "%Y-%m-%d"
+
+markdown: kramdown
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
+
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  - assets/js/clipboardrouge.js

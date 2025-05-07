@@ -1,72 +1,84 @@
 # main links
 main:
-  - title: "Projects"
-    sublinks:
-      - title: Edge Computing
-        url: /projects/edge-computing/
-      - title: UniCycle
-        url: /projects/unicycle/
-      - title: Leeds Inspired Search
-        url: /projects/leeds-inspired/
-      - title: User Management System
-        url: /projects/user-management-sys/
-      - title: Rate & View Professors
-        url: /projects/rate-and-view/
-      - title: OpenGL Leeds
-        url: /projects/OpenGL-leeds/
-      - title: Crawl & Search
-        url: /projects/Crawl-and-search/
-      - title: Convolutional Neural Network
-        url: /projects/Convolutional-Neural-Network/
+  - title: "CV"
+    url: /cv/
+  - title: Projects
+    sublinks: 
+      - title: "MOSFET Process Simulation"
+        url: /MOSFET_Process_Simulation/
+      - title: "FinFET Process Simulation"
+        url: /FinFET_Process_Simulation/
 
-  # - title: Infrastructure
-  #   sublinks:
-  #     - title: Information Storage Management (ISM)
-  #       url: /information-storage-management/
-
-  - title: Study Notes
-    sublinks:
-      - title: Distributed Systems
-        url: /distributed-systems/
-      - title: Data Structures and Algorithms
-        url: /data-structres-and-algorithms/
-      - title: Machine Learning
-        url: /machine-learning/
-      - title: Recommender Systems
-        url: /recommender-systems/
-      - title: Secure Computing
-        url: /secure-computing/
-
-  - title: Interests
-    sublinks:
-      - title: Daily Tech News
-        url: /tech-news/
-      - title: CS Papers
-        url: /cs-papers/
-      - title: Jekyll Blog
-        url: /jekyll-blog/
-      - title: Other
-        url: /other/
-
-  - title: "Categories"
+  - title: "Archive"
+    url: /projects/
+  - title: "Category"
     url: /categories/
+  - title: "Tag"
+    url: /tags/
 
-
-
-
-# the sidebar menu
+ #- title: "About"
+ #  url: https://mmistakes.github.io/minimal-mistakes/about/
+ #- title: "Sample Posts"
+ #  url: /year-archive/
+ #- title: "Sample Collections"
+ #  url: /collection-archive/
+ #- title: "Sitemap"
+ #  url: /sitemap/
+    
 # docs:
-#   - title: Projects
-#     url: /projects/
-#
-#   - title: Study Notes
-#     url: /study/
-#
-#   - title: Data Structures and Algorithms
-#     url: /data-structres-and-algorithms/
-#
-#   - title: CS Papers
-#     url: /cs-papers/
-#
-#   - title: Daily Tech News
-#     url: /tech-news/
+#   - title: Category
+#     children:        
+#       - title: "C"
+#         url: /categories/#c
+#       - title: "C++"
+#         url: /categories/#cpp
+#       - title: "JAVA"
+#         url: /categories/#java        
+#       - title: "OpenGL"
+#         url: /categories/#opengl        
+#       - title: "OpenCV-python"
+#         url: /categories/#opencv-python        
+#       - title: "UnrealEngine"
+#         url: /categories/#unrealengine        
+#       - title: "HTML"
+#         url: /categories/#html        
+#       - title: "Development-note"
+#         url: /categories/#development-note        
+#       - title: "anything"
+#         url: /categories/#anything
+#       - title: "Visual-Basic"
+#         url: /categories/#visual-basic
+#       - title: "OpenCV-C++"
+#         url: /categories/#opencv-cpp
+#       - title: "MFC"
+#         url: /categories/#MFC
+
+sidebar-category:
+  - title: "Sentaurus TCAD"
+    children:
+      - title: "TCAD Practice"
+        url: "TCAD_Practice"
+        category: "TCAD_Practice"
+
+      
+
+      
+
+  
+  - title: "Layout"
+    children:
+      - title: "KLayout Layer Design"
+        url: "Mask_Layer_Design"
+        category: "Mask_Layer_Design"
+
+
+  - title: "Fab Experience"
+    children:
+      - title: "MOSFET FEOL Process"
+        url: "MOSFET_Process"
+        category: "MOSFET_Process"
+
+  
+
+
+
