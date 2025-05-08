@@ -258,12 +258,14 @@ compress_html:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      toc: true
-      toc_sticky: true
+  # # sidebar
+  # - scope:
+  #     path: ""
+  #     type: docs
+  #   values:
+  #     sidebar:
+  #       title: "Categories"
+  #       nav: "docs"
 
   # _posts
   - scope:
