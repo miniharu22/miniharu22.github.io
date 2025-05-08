@@ -541,7 +541,6 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
-  margin-top: 50px;
 
   .nav__title {
     color: #fff;
@@ -550,6 +549,7 @@
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
     border-bottom: 1px solid #f2f3f3;
+    margin-top: 50px;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
