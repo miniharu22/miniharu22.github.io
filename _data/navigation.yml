@@ -21,7 +21,7 @@ main:
 
   - title: Study Notes
     sublinks:
-      - title: TCAD Practice
+      - title: Sentaurus TCAD
         url: /TCAD_Practice/
       - title: Data Structures and Algorithms
         url: /data-structres-and-algorithms/
