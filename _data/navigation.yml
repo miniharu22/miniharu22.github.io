@@ -19,13 +19,10 @@ main:
       - title: Convolutional Neural Network
         url: /projects/Convolutional-Neural-Network/
 
-  # - title: Infrastructure
-  #   sublinks:
-  #     - title: Information Storage Management (ISM)
-  #       url: /information-storage-management/
-
   - title: Study Notes
     sublinks:
+      - title: TCAD Practice
+        url: /TCAD_Practice/
       - title: Distributed Systems
         url: /distributed-systems/
       - title: Data Structures and Algorithms
