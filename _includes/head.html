@@ -18,9 +18,9 @@
   <link rel="stylesheet alternate" href="{{ '/assets/css/theme2.css' | relative_url }}" id="theme_source_2">
   <script>
     let theme = sessionStorage.getItem('theme');
-    if(theme === "light")
+    if(theme === "air")
     {
-      sessionStorage.setItem('theme', 'light');
+      sessionStorage.setItem('theme', 'air');
       node1 = document.getElementById('theme_source');
       node2 = document.getElementById('theme_source_2');
       node1.setAttribute('rel', 'stylesheet alternate'); 
@@ -28,7 +28,7 @@
     }
     else
     {
-      sessionStorage.setItem('theme', 'light');
+      sessionStorage.setItem('theme', 'dark');
     }
   </script>
 {% endif %}
