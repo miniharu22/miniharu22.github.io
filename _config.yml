@@ -11,6 +11,9 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 # theme                  : "minimal-mistakes-jekyll"
 
+minimal_mistakes_skin: "dark"
+minimal_mistakes_skin2: "light"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Research Archive"
