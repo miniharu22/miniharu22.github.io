@@ -1,36 +1,15 @@
 # main links
 main:
-  - title: "Projects"
+  - title: HW Project
     sublinks:
-      - title: Edge Computing
-        url: /projects/edge-computing/
-      - title: UniCycle
-        url: /projects/unicycle/
-      - title: Leeds Inspired Search
-        url: /projects/leeds-inspired/
-      - title: User Management System
-        url: /projects/user-management-sys/
-      - title: Rate & View Professors
-        url: /projects/rate-and-view/
-      - title: OpenGL Leeds
-        url: /projects/OpenGL-leeds/
-      - title: Crawl & Search
-        url: /projects/Crawl-and-search/
-      - title: Convolutional Neural Network
-        url: /projects/Convolutional-Neural-Network/
+      - title: MOSFET Process Simulation
+        url: /MOSFET_Process_Simulation/
 
-  - title: Study Notes
+  - title: HW Study 
     sublinks:
       - title: Sentaurus TCAD
         url: /TCAD_Practice/
-      - title: Data Structures and Algorithms
-        url: /data-structres-and-algorithms/
-      - title: Machine Learning
-        url: /machine-learning/
-      - title: Recommender Systems
-        url: /recommender-systems/
-      - title: Secure Computing
-        url: /secure-computing/
+
 
   - title: Interests
     sublinks:
