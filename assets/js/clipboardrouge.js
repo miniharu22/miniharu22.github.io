@@ -1,8 +1,6 @@
 // Clipboard
 // This makes the button blink 250 miliseconds
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
-
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
@@ -26,7 +24,7 @@ function sleep(ms) {
     var pre = codeChunk.item(i);
     var btn = document.createElement("button");
     // Prepare button
-    btn.innerHTML = "<i class='far fa-copy'></i>"; // Icon to be displayed on the button
+    btn.innerHTML = <i class="fas fa-copy"></i> ; // Icon to be displayed on the button
   
     // Inline styling - may be a new css class, to be added in the next section
     btn.style.position = "absolute";
