@@ -75,11 +75,3 @@ body {
     margin: 0 auto;
     display: block;
 }
-
-td.rouge-gutter {
-  @extend td.gutter;
-}
-
-td.rouge-code {
-  @extend td.code;
-}

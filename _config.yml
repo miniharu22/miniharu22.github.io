@@ -193,9 +193,6 @@ kramdown:
 markdown: kramdown
 kramdown:
     highlighter: rouge
-    syntax_highlighter_opts:
-        block:
-            line_numbers: true
 
 
 # Sass/SCSS
