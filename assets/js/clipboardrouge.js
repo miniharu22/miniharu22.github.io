@@ -1,6 +1,8 @@
 // Clipboard
 // This makes the button blink 250 miliseconds
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
