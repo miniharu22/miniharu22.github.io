@@ -29,7 +29,7 @@ for (var i = 0; i < codeChunk.length; i++) {
   var pre = codeChunk.item(i);
   var btn = document.createElement("button");
   // Prepare button
-  btn.innerHTML = <i class="fa-solid fa-copy"></i>; // Icon to be displayed on the button
+  btn.innerHTML = "<i class='fa-solid fa-copy'></i>"; // Icon to be displayed on the button
 
   // Inline styling - may be a new css class, to be added in the next section
   btn.style.position = "absolute";
