@@ -6,6 +6,8 @@ main:
         url: /MOSFET_Process_Simulation/
       - title: FinFET Process Simulation
         url: /FinFET_Process_Simulation/
+      - title: RF Characteristics in GAA
+        url : /RF_Characteristics/
 
   - title: HW Study 
     sublinks:
@@ -24,21 +26,3 @@ main:
     url: /categories/
 
 
-
-
-# the sidebar menu
-# docs:
-#   - title: Projects
-#     url: /projects/
-#
-#   - title: Study Notes
-#     url: /study/
-#
-#   - title: Data Structures and Algorithms
-#     url: /data-structres-and-algorithms/
-#
-#   - title: CS Papers
-#     url: /cs-papers/
-#
-#   - title: Daily Tech News
-#     url: /tech-news/
