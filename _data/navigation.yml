@@ -6,7 +6,7 @@ main:
         url: /MOSFET_Process_Simulation/
       - title: FinFET Process Simulation
         url: /FinFET_Process_Simulation/
-      - title: RF Characteristics in GAA
+      - title: RF Characteristics in GAA Device
         url : /RF_Characteristics/
 
   - title: HW Study 
