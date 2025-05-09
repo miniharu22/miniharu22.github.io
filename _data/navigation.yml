@@ -4,6 +4,8 @@ main:
     sublinks:
       - title: MOSFET Process Simulation
         url: /MOSFET_Process_Simulation/
+      - title: FinFET Process Simulation
+        url: /FinFET_Process_Simulation/
 
   - title: HW Study 
     sublinks:
