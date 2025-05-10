@@ -14,3 +14,5 @@ header:
     - label: "Github Repository"
       url: "https://github.com/miniharu22/TCAD_Project/tree/main/22nm%20FinFET"
 ---
+
+# Sentaurus Process를 이용한 22nm FinFET Design & Simulation
