@@ -2,6 +2,7 @@
 layout: category
 taxonomy: MOSFET Process Simulation
 title: MOSFET Process Simulation
+excerpt: "Sentaurus Process를 이용한 180nm MOSFET Design & Simulation"
 permalink: "/MOSFET_Process_Simulation/"
 author_profile: false
 
