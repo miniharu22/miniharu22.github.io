@@ -5,8 +5,9 @@ title: FinFET Process Simulation
 permalink: "/FinFET_Process_Simulation/"
 author_profile: false
 
+excerpt: "Sentaurus Process를 이용한 22nm FinFET Design & Simulation"
+
 header:
-  excerpt: "Sentaurus Process를 이용한 22nm FinFET Design & Simulation"
   overlay_image: /assets/images/post1.jpg
   overlay_filter: rgba(0,0,0,0.2)
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
