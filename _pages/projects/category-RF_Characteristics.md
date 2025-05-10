@@ -1,7 +1,7 @@
 ---
 layout: category
-taxonomy: RF Characteristics in GAA Device
-title: RF Characteristics in GAA Device
+taxonomy: RF Characteristics in GAA Transistor
+title: RF Characteristics in GAA Transistor
 permalink: "/RF_Characteristics/"
 author_profile: false
 
