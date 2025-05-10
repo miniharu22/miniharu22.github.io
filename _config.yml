@@ -298,7 +298,7 @@ defaults:
         # nav: "docs"
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
       share: false
       related: false
