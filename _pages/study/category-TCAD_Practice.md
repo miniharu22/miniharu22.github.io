@@ -2,7 +2,6 @@
 layout: category
 taxonomy: Sentaurus TCAD
 title: Sentaurus TCAD
-excerpt: "Sentaurus TCAD Simulation 연습 및 결과 분석"
 permalink: "/TCAD_Practice/"
 author_profile: false
 
