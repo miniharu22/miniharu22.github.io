@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: RF Characteristics in GAA Transistor
-title: RF Characteristics in GAA Transistors (w/Local Bottom Isolation)
+title: RF Characteristics in GAA Transistors
 permalink: "/RF_Characteristics/"
 author_profile: false
 
