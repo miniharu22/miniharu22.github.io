@@ -13,6 +13,8 @@ main:
     sublinks:
       - title: Sentaurus TCAD
         url: /TCAD_Practice/
+      - title: Computational Electronics
+        url: /Computational_Electronics/
 
 
   - title: Interests
