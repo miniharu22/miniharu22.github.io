@@ -2,11 +2,11 @@
 main:
   - title: HW Project
     sublinks:
-      - title: MOSFET Process Simulation
+      - title: MOSFET Process Simulation (Terminated)
         url: /MOSFET_Process_Simulation/
-      - title: FinFET Process Simulation
+      - title: FinFET Process Simulation (Terminated)
         url: /FinFET_Process_Simulation/
-      - title: RF Characteristics in GAA Transistors
+      - title: RF Characteristics in GAA Transistors (Terminated)
         url : /RF_Characteristics/
 
   - title: HW Study 
