@@ -16,7 +16,10 @@ main:
       - title: Sentaurus TCAD
         url: /TCAD_Practice/
 
-
+  - title: SW Study
+    sublinks: 
+      - title: Deep Learning
+        url: /Deep Learning/
 
   - title: Interests
     sublinks:
