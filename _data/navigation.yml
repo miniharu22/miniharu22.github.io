@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: HW Project
+  - title: Projects
     sublinks:
       - title: MOSFET Process Simulation 
         url: /MOSFET_Process_Simulation/
@@ -9,16 +9,12 @@ main:
       - title: RF Characteristics in GAA Transistors
         url : /RF_Characteristics/
 
-  - title: HW Study 
+  - title: Study Notes 
     sublinks:
       - title: Computational Electronics
         url: /Computational_Electronics/
       - title: Sentaurus TCAD
         url: /TCAD_Practice/
-
-  - title: SW Study
-    sublinks:
-      - title: Deep Learning
 
 
 
