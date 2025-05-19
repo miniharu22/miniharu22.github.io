@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: Projects
+  - title: HW Project
     sublinks:
       - title: MOSFET Process Simulation 
         url: /MOSFET_Process_Simulation/
@@ -9,7 +9,7 @@ main:
       - title: RF Characteristics in GAA Transistors
         url : /RF_Characteristics/
 
-  - title: Study Notes 
+  - title: HW Study
     sublinks:
       - title: Computational Electronics
         url: /Computational_Electronics/
