@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Deep Learning
-title: Deep Learning
+title: Deep Learning Basic
 permalink: "/Deep Learning/"
 author_profile: false
 

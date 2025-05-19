@@ -18,7 +18,7 @@ main:
 
   - title: SW Study
     sublinks: 
-      - title: Deep Learning
+      - title: Deep Learning Basic
         url: /Deep Learning/
 
   - title: Interests
