@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: HW Project
+  - title: Device Project
     sublinks:
       - title: MOSFET Process Simulation 
         url: /MOSFET_Process_Simulation/
@@ -9,7 +9,7 @@ main:
       - title: RF Characteristics in GAA Transistors
         url : /RF_Characteristics/
 
-  - title: HW Study
+  - title: Device Study
     sublinks:
       - title: Computational Electronics
         url: /Computational_Electronics/
@@ -18,7 +18,7 @@ main:
       - title: Advanced Nano Devices
         url : /Advanced_Nano_Devices/
 
-  - title: SW Study
+  - title: AI Study
     sublinks: 
       - title: Deep Learning Basic
         url: /Deep Learning/
