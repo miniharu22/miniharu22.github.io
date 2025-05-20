@@ -21,13 +21,6 @@ main:
       - title: Deep Learning Basic
         url: /Deep Learning/
 
-  - title: Interests
-    sublinks:
-      - title: Daily Tech News
-        url: /tech-news/
-      - title: Jekyll Blog
-        url: /jekyll-blog/
-
   - title: "Categories"
     url: /categories/
 
