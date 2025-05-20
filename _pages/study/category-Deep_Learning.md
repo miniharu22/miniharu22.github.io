@@ -11,5 +11,5 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Github Repository"
-      url: "https://github.com/miniharu22/Computational-Electronics"
+      url: "https://github.com/miniharu22/DL-Basic"
 ---
