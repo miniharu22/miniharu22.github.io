@@ -15,8 +15,6 @@ main:
         url: /Computational_Electronics/
       - title: Sentaurus TCAD
         url: /TCAD_Practice/
-      - title: Advanced Nano Devices
-        url : /Advanced_Nano_Devices/
 
   - title: AI Study
     sublinks: 
