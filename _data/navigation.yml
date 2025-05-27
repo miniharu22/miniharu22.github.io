@@ -15,8 +15,8 @@ main:
         url: /Computational_Electronics/
       - title: Sentaurus TCAD
         url: /TCAD_Practice/
-      - title: Paper Review
-        url: /Paper_Review/
+      - title: Device Paper Review
+        url: /Device_Paper_Review/
 
   - title: AI Study
     sublinks: 

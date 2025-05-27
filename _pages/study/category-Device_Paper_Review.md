@@ -1,8 +1,8 @@
 ---
 layout: category
-taxonomy: Paper Review
-title: Paper Review
-permalink: "/Paper_Review/"
+taxonomy: Device Paper Review
+title: Device Paper Review
+permalink: "/Device_Paper_Review/"
 author_profile: false
 
 header:
