@@ -22,6 +22,8 @@ main:
     sublinks: 
       - title: Deep Learning Basic
         url: /Deep Learning/
+      - title: Classification Model  
+        url: /Classification_Model/
 
   - title: "Categories"
     url: /categories/
