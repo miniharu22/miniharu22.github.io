@@ -22,7 +22,7 @@ main:
     sublinks: 
       - title: Deep Learning Basic
         url: /Deep Learning/
-      - title: Classification Model  
+      - title: Classification Model Review  
         url: /Classification_Model/
 
   - title: "Categories"

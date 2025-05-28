@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Classification Model 
-title: Classification Model 
+title: Classification Model Review  
 permalink: "/Classification_Model/"
 author_profile: false
 
