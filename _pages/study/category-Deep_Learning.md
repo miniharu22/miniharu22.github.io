@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Deep Learning Basic
-title: Deep Learning Basic
+title: Deep Learning Basic & Pytorch
 permalink: "/Deep Learning/"
 author_profile: false
 

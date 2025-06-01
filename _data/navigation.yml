@@ -24,7 +24,7 @@ main:
 
   - title: AI Study
     sublinks: 
-      - title: Deep Learning Basic
+      - title: Deep Learning Basic & Pytorch
         url: /Deep Learning/
       - title: Classification Model Review  
         url: /Classification_Model/
