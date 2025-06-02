@@ -28,6 +28,8 @@ main:
         url: /Deep Learning/
       - title: Classification Model Review  
         url: /Classification_Model/
+      - title: Docker
+        url: /Docker/
 
   - title: "Categories"
     url: /categories/
