@@ -9,7 +9,7 @@ main:
       - title: RF Characteristics in GAA Transistors
         url : /RF_Characteristics/
       - title: Universal NPU-CNN Accelarator
-        url : /Universal_NPU-CNN_Accelarator/
+        url : /Universal_NPU_CNN_Accelarator/
 
   - title: Device Study
     sublinks:
