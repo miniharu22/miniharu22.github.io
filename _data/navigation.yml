@@ -1,12 +1,39 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: Device Project
+    sublinks:
+      - title: MOSFET Process Simulation 
+        url: /MOSFET_Process_Simulation/
+      - title: FinFET Process Simulation
+        url: /FinFET_Process_Simulation/
+      - title: RF Characteristics in GAA Transistors
+        url : /RF_Characteristics/
+      - title: Universal NPU-CNN Accelarator
+        url : /Universal_NPU_CNN_Accelarator/
+
+  - title: Device Study
+    sublinks:
+      - title: Computational Electronics
+        url: /Computational_Electronics/
+      - title: Sentaurus TCAD
+        url: /TCAD_Practice/
+      - title: Verilog HDL (Vivado)
+        url: /Verilog_HDL/
+      - title: PSpice Simulation
+        url: /PSpice_Simulation/
+      - title: Device Paper Review
+        url: /Device_Paper_Review/
+
+  - title: AI Study
+    sublinks: 
+      - title: Deep Learning Basic & Pytorch
+        url: /Deep Learning/
+      - title: Classification Model Review  
+        url: /Classification_Model/
+      - title: Docker
+        url: /Docker/
+
+  - title: "Categories"
+    url: /categories/
+
+

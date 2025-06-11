@@ -4,10 +4,9 @@
 
 .page__footer {
   @include clearfix;
-  float: inline-start;
-  margin-inline: 0;
+  float: left;
   width: 100%;
-  margin-top: 3em;
+  clear: both;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -17,10 +16,10 @@
 
   footer {
     @include clearfix;
-    margin-inline: auto;
-    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 1.5em 1.5em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -47,6 +46,7 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  text-align: center;
 }
 
 .page__footer-follow {
@@ -65,13 +65,13 @@
     text-transform: uppercase;
   }
 
-  li + li::before {
+  li + li:before {
     content: "";
-    padding-inline-end: 5px;
+    padding-right: 5px;
   }
 
   a {
-    padding-inline-end: 10px;
+    padding-right: 10px;
     font-weight: bold;
   }
 

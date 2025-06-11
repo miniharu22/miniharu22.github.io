@@ -1,4 +1,122 @@
 ---
-layout: home
-author_profile: true
+layout: newhome
+author_profile: false
+sidebar: false
 ---
+<header>
+	<div class="container">
+		<div class="column" style="max-width: 800px; margin: 0 auto;">
+			<div>
+				<h1 class="editable"><br>Done is <br>better than <br>Perfect</h1>
+				<p class="editable">
+					<h2 class="editable" style="text-align: left;">This is My Project & Study Archive.</h2>
+				</p>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+				<div style="
+				display: flex;
+				justify-content: center;
+				align-items: left;
+				gap: 30px;
+				height: 50px; 
+				padding: 10px 20px;
+				border: 3px solid black;
+				border-radius: 8px;
+				background-color: #ffffff;
+				margin-top: 62px;
+			  ">
+
+			  	<!-- Homepage 버튼 -->
+				<a href="https://miniharu22.github.io/" style="
+				color: black;  
+				text-decoration: none;
+				font-size: 20px;
+				display: flex;
+				align-items: center;
+				gap: 8px;
+			  ">
+				<i class="fa-solid fa-house"></i>
+			  </a>
+
+				<!-- GitHub 버튼 -->
+				<a href="https://github.com/miniharu22" target="_blank" style="
+				  color: black;  
+				  text-decoration: none;
+				  font-size: 20px;
+				  display: flex;
+				  align-items: center;
+				  gap: 8px;
+				">
+				  <i class="fab fa-fw fa-github"></i> 
+				</a>
+			  
+				<!-- Email 버튼 -->
+				<a href="mailto:miniharu22@gmail.com" style="
+				  color: black;  
+				  text-decoration: none;
+				  font-size: 20px;
+				  display: flex;
+				  align-items: center;
+				  gap: 8px;
+				">
+				  <i class="fas fa-fw fa-envelope-square"></i>
+				</a>	
+			  </div>				
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<div class="container" style="margin-top: -70px;">
+	<h2 class="editable" style="text-align: center;">A little bit about me</h2>
+
+	<div id="terminal">
+		<div id="bar"></div>
+
+	<div id="screen">
+		<!-- start of the screen -->
+		<p class="command">ls Interests</p>
+		<p class="response array">
+			<span class="array-element">Logic & Memory Device</span>,
+			<span class="array-element">Memristor</span>,
+			<span class="array-element">Neural Network System</span>,
+			<span class="array-element">AI Solution</span>,
+			<span class="array-element">Processing-In-Memory</span>,
+			<span class="array-element">Neuromorphic Device</span>
+		</p>
+
+		<p class="command">ls Skills</p>
+		<p class="response array">
+			<span class="array-element">Python</span>,
+			<span class="array-element">Pytorch</span>,
+			<span class="array-element">Pandas</span>,
+			<span class="array-element">C/C++</span>,
+			<span class="array-element">Verilog</span>,
+			<span class="array-element">System Verilog</span>,
+			<span class="array-element">TCAD(Synopsys)</span>,
+			<span class="array-element">Gradio</span>,
+			<span class="array-element">Docker</span>,
+			<span class="array-element">Ubuntu(wsl)</span>,
+			<span class="array-element">HTML/CSS</span>,
+			<span class="array-element">Git</span>
+		</p>
+
+		<p class="command">
+			<span class="cursor">&nbsp</span>
+		</p>
+	</div>
+	</div>
+</div>
+
+
+<div class="container" style="margin-top: -40px;">
+	<h2 class="editable" style="text-align:center;">Recent Posts </h2>
+		<div class="posts">
+			{% for post in paginator.posts limit:4 %}
+				{% include recent-posts.html type="grid" %}
+			{% endfor %}
+		</div>
+</div>
+
+

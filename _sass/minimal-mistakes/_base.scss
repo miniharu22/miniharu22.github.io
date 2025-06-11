@@ -6,8 +6,6 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -15,7 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.45;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -37,27 +35,28 @@ h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $h-size-1;
+  font-size: 1.85em;
 }
 
 h2 {
-  font-size: $h-size-2;
+  margin: 0.5em 0 0.5em;
+  font-size: 1.5em;
 }
 
 h3 {
-  font-size: $h-size-3;
+  font-size: 1.17em;
 }
 
 h4 {
-  font-size: $h-size-4;
+  font-size: 1em;
 }
 
 h5 {
-  font-size: $h-size-5;
+  font-size: 0.83em;
 }
 
 h6 {
-  font-size: $h-size-6;
+  font-size: 0.67em;
 }
 
 small,
@@ -76,6 +75,17 @@ ins {
   a {
     color: inherit;
   }
+}
+
+/* devinlife comment: 구글 애드 센스의 아래 바 레이아웃 삭제
+ https://github.com/mmistakes/minimal-mistakes/issues/306 */
+ins.adsbygoogle {
+  border-bottom: none !important;
+  margin-bottom: 1em;
+}
+
+.toc-custom {
+  margin-top: 1em;
 }
 
 del a {
@@ -109,18 +119,18 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin-block: 2em;
-  margin-inline-end: 1em;
-  padding-inline: 1em;
+  margin: 2em 1em 2em 0;
+  padding-left: 1em;
+  padding-right: 1em;
   font-style: italic;
-  border-inline-start: 0.25em solid $primary-color;
+  border-left: 0.25em solid $primary-color;
 
   cite {
     font-style: italic;
 
-    &::before {
+    &:before {
       content: "\2014";
-      padding-inline-end: 5px;
+      padding-right: 5px;
     }
   }
 }
@@ -128,6 +138,8 @@ blockquote {
 /* links */
 
 a {
+  /* devinlife : a link 하이퍼링크 밑줄 없애기 */
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -159,7 +171,27 @@ pre {
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  white-space: pre-wrap; // this wraps the code
+  // overflow-x: auto; // add scrollbars to wide code blocks
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size:  $type-size-body;
+  color: #f0555a;
+  background: $code-background-color;
+  border-radius: $border-radius;
+
+  &:before,
+  &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
 }
 
 /* horizontal rule */
@@ -175,7 +207,7 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.4em;
 }
 
 li ul,
@@ -296,6 +328,8 @@ nav {
 
   a {
     text-decoration: none;
+    margin-bottom: 0.5em;
+
   }
 
   /* override white-space for nested lists */
@@ -313,6 +347,12 @@ nav {
 /*
    Global animation transition
    ========================================================================== */
+
+// center image
+img{
+  margin: 0 auto;
+  display: block;
+}
 
 b,
 i,
