@@ -19,8 +19,6 @@ main:
         url: /TCAD_Practice/
       - title: Verilog HDL (Vivado)
         url: /Verilog_HDL/
-      - title: PSpice Simulation
-        url: /PSpice_Simulation/
       - title: Device Paper Review
         url: /Device_Paper_Review/
 
