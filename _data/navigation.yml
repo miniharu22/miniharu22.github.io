@@ -8,7 +8,7 @@ main:
         url: /FinFET_Process_Simulation/
       - title: RF Characteristics in GAA Transistors
         url : /RF_Characteristics/
-      - title: NPU : CNN Classification Accelerator
+      - title: NPU-CNN Classification Accelerator
         url : /Universal_NPU_CNN_Accelarator/
 
   - title: Device Study

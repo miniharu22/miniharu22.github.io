@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Universal NPU-CNN Accelarator
-title: Universal NPU-CNN Accelarator
+title: NPU-CNN Classification Accelerator
 permalink: "/Universal_NPU_CNN_Accelarator/"
 author_profile: false
 
