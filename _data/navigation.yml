@@ -21,6 +21,11 @@ main:
         url: /Verilog_HDL/
       - title: Device Paper Review
         url: /Device_Paper_Review/
+  
+  - title: AI Project
+    sublinks:
+      - title: Post Training Quantization SAM     
+        url: /Post_Training_Quantization_SAM/
 
   - title: AI Study
     sublinks: 
