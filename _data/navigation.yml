@@ -24,6 +24,8 @@ main:
   
   - title: AI Project
     sublinks:
+      - title: Wafer Map Defect Detection    
+        url: /Wafer_Map_Defect_Detection/
       - title: Post Training Quantization SAM     
         url: /Post_Training_Quantization_SAM/
 
