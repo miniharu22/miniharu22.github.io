@@ -11,5 +11,5 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Github Repository"
-      url: "https://github.com/miniharu22/Post-Training-Quantization-SAM"
+      url: "https://github.com/miniharu22/Wafer-Map-Defect-Detection"
 ---
