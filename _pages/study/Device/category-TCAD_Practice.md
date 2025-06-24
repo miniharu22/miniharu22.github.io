@@ -1,7 +1,7 @@
 ---
 layout: category
-taxonomy: Sentaurus TCAD
-title: Sentaurus TCAD
+taxonomy: Sentaurus TCAD 
+title: Sentaurus TCAD Practice
 permalink: "/TCAD_Practice/"
 author_profile: false
 
