@@ -15,7 +15,7 @@ main:
         url: /Computational_Electronics/
       - title: Sentaurus TCAD Practice
         url: /TCAD_Practice/
-      - title: FinFET Process Simulation
+      - title: FinFET SProcess Simulation
         url: /FinFET_Process_Simulation/
       - title: Verilog HDL (Vivado)
         url: /Verilog_HDL/

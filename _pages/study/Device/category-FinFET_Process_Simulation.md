@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: FinFET Process Simulation
-title: FinFET Process Simulation
+title: FinFET SProcess Simulation
 permalink: "/FinFET_Process_Simulation/"
 author_profile: false
 
