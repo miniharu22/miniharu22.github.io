@@ -40,5 +40,8 @@ main:
 
   - title: "Categories"
     url: /categories/
+  
+  - title: "Papar tag"
+    url: /tags/
 
 
