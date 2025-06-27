@@ -19,7 +19,7 @@ main:
         url: /DRAM_Process_Simulation/
       - title: Verilog HDL (Vivado)
         url: /Verilog_HDL/
-      - title: Device Paper Review
+      - title: Device Paper Summary
         url: /Device_Paper_Review/
   
   - title: AI Project
