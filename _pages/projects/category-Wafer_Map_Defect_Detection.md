@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Wafer Map Defect Detection
-title: Wafer Map Defect Detection
+title: Wafer Map Defect Classification
 permalink: "/Wafer_Map_Defect_Detection/"
 author_profile: false
 
