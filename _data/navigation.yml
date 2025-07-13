@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: Device Paper
+  - title: Device Paper 
     sublinks:
-      - title: Device Paper List
+      - title: Paper List
         url: /Device_Paper_Review/
-      - title: Device Papar Tags
+      - title: Paper Tags
         url: /tags/
-      - title: Device Papar
+      - title: Journal & Conference
         url: /Publish/
-      - title: Device Papar
+      - title: Year of Publication
         url: /year/
 
   - title: Device Project

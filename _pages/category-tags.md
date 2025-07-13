@@ -1,5 +1,5 @@
 ---
-title: "Device Paper Tags"
+title: "Paper Tags"
 permalink: /tags/
 layout: tags
 author_profile: false
