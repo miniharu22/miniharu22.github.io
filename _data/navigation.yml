@@ -4,7 +4,7 @@ main:
     sublinks:
       - title: Paper List
         url: /Device_Paper_Review/
-      - title: Paper Tags
+      - title: Keyword Index
         url: /tags/
       - title: Journal & Conference
         url: /Publish/
