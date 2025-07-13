@@ -6,6 +6,8 @@ main:
         url: /Device_Paper_Review/
       - title: Device Papar Tags
         url: /tags/
+      - title: Device Papar
+        url: /Publish/
 
   - title: Device Project
     sublinks:
