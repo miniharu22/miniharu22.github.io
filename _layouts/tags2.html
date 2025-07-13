@@ -4,10 +4,8 @@ layout: archive
 
 {{ content }}
 
-{% comment %} Collect all Publish values and dedupe {% endcomment %}
 {% assign publishes = site.posts | map: "Publish" | flatten | uniq %}
 
-{% comment %} Determine the maximum number of posts in any Publish group {% endcomment %}
 {% assign max_count = 0 %}
 {% for pub in publishes %}
   {% assign posts_for_pub = site.posts | where_exp: "post", "post.Publish contains '" | append: pub | append: "'" %}
@@ -32,7 +30,6 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% comment %} Output each Publish section sorted by count {% endcomment %}
 {% for i in (1..max_count) reversed %}
   {% for pub in publishes %}
     {% assign posts_for_pub = site.posts | where_exp: "post", "post.Publish contains '" | append: pub | append: "'" %}
