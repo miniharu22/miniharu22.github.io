@@ -10,7 +10,7 @@ layout: archive
 {% comment %} Determine the maximum number of posts in any Publish group {% endcomment %}
 {% assign max_count = 0 %}
 {% for pub in publishes %}
-  {% capture condition %}post.Publish contains "{{ pub }}"{% endcapture %}
+  {% capture condition %}post.year contains "{{ pub }}"{% endcapture %}
   {% assign posts_for_pub = site.posts | where_exp: "post", condition %}
   {% if posts_for_pub.size > max_count %}
     {% assign max_count = posts_for_pub.size %}
