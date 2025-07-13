@@ -8,6 +8,8 @@ main:
         url: /tags/
       - title: Device Papar
         url: /Publish/
+      - title: Device Papar
+        url: /year/
 
   - title: Device Project
     sublinks:
