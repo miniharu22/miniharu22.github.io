@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: Device Paper List
+    url: /Device_Paper_Review/
+
   - title: Device Project
     sublinks:
       - title: MOSFET Process Simulation 
@@ -19,8 +22,7 @@ main:
         url: /DRAM_Process_Simulation/
       - title: Verilog HDL (Vivado)
         url: /Verilog_HDL/
-      - title: Device Paper
-        url: /Device_Paper_Review/
+      
   
   - title: AI Project
     sublinks:

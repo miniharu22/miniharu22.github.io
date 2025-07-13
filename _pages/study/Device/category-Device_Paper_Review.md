@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Device Paper Review
-title: Device Paper
+title: Device Paper List
 permalink: "/Device_Paper_Review/"
 author_profile: false
 
