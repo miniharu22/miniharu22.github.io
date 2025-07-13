@@ -4,20 +4,27 @@ layout: archive
 
 {{ content }}
 
-{% assign publish_max = 0 %}
-{% for publish in site.Publish %}
-  {% if publish[1].size > publish_max %}
-    {% assign publish_max = publish[1].size %}
+{% comment %} Collect all Publish values and dedupe {% endcomment %}
+{% assign publishes = site.posts | map: "Publish" | flatten | uniq %}
+
+{% comment %} Determine the maximum number of posts in any Publish group {% endcomment %}
+{% assign max_count = 0 %}
+{% for pub in publishes %}
+  {% assign posts_for_pub = site.posts | where_exp: "post", "post.Publish contains '" | append: pub | append: "'" %}
+  {% if posts_for_pub.size > max_count %}
+    {% assign max_count = posts_for_pub.size %}
   {% endif %}
 {% endfor %}
 
 <ul class="taxonomy__index">
-  {% for i in (1..publish_max) reversed %}
-    {% for publish in site.Publish %}
-      {% if publish[1].size == i %}
+  {% for i in (1..max_count) reversed %}
+    {% for pub in publishes %}
+      {% assign posts_for_pub = site.posts | where_exp: "post", "post.Publish contains '" | append: pub | append: "'" %}
+      {% if posts_for_pub.size == i %}
         <li>
-          <a href="#{{ publish[0] | slugify }}">
-            <strong>{{ publish[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          <a href="#{{ pub | slugify | downcase }}">
+            <strong>{{ pub }}</strong>
+            <span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>
       {% endif %}
@@ -25,17 +32,21 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% for i in (1..publish_max) reversed %}
-  {% for publish in site.Publish %}
-    {% if publish[1].size == i %}
-      <section id="{{ publish[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ publish[0] }}</h2>
+{% comment %} Output each Publish section sorted by count {% endcomment %}
+{% for i in (1..max_count) reversed %}
+  {% for pub in publishes %}
+    {% assign posts_for_pub = site.posts | where_exp: "post", "post.Publish contains '" | append: pub | append: "'" %}
+    {% if posts_for_pub.size == i %}
+      <section id="{{ pub | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ pub }}</h2>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in publish.last %}
+          {% for post in posts_for_pub %}
             {% include archive-single.html type=page.entries_layout %}
           {% endfor %}
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+        <a href="#page-title" class="back-to-top">
+          {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
+        </a>
       </section>
     {% endif %}
   {% endfor %}
