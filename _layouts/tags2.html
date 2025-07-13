@@ -4,40 +4,39 @@ layout: archive
 
 {{ content }}
 
-{% assign publish_categories = "" | split: "" %}
-
-{% for post in site.posts %}
-  {% if post.publish %}
-    {% unless publish_categories contains post.publish %}
-      {% assign publish_categories = publish_categories | push: post.publish %}
-    {% endunless %}
+{% assign tags_max = 0 %}
+{% for tag in site.Publish %}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
   {% endif %}
 {% endfor %}
 
-{% assign sorted_categories = publish_categories | sort %}
-
 <ul class="taxonomy__index">
-  {% for category in sorted_categories %}
-    <li>
-      <a href="#{{ category | slugify }}">
-        <strong>{{ category }}</strong>
-      </a>
-    </li>
+  {% for i in (1..tags_max) reversed %}
+    {% for tag in site.Publish %}
+      {% if tag[1].size == i %}
+        <li>
+          <a href="#{{ tag[0] | slugify }}">
+            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 
-{% for category in sorted_categories %}
-  <section id="{{ category | slugify }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ category }}</h2>
-    <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% for post in site.posts %}
-        {% if post.publish == category %}
-          {% include archive-single.html type=page.entries_layout %}
-        {% endif %}
-      {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">
-      {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
-    </a>
-  </section>
+{% for i in (1..tags_max) reversed %}
+  {% for tag in site.Publish %}
+    {% if tag[1].size == i %}
+      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% for post in tag.last %}
+            {% include archive-single.html type=page.entries_layout %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
