@@ -1,7 +1,11 @@
 # main links
 main:
-  - title: Device Paper List
-    url: /Device_Paper_Review/
+  - title: Device Paper
+    sublinks:
+      - title: Device Paper List
+        url: /Device_Paper_Review/
+      - title: Device Papar Tags
+        url: /tags/
 
   - title: Device Project
     sublinks:
@@ -43,7 +47,6 @@ main:
   - title: "Categories"
     url: /categories/
   
-  - title: "Device Papar Tags"
-    url: /tags/
+  
 
 
