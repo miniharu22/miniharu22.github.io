@@ -4,53 +4,33 @@ layout: archive
 
 {{ content }}
 
-{% comment %} Collect all Publish values and dedupe {% endcomment %}
-{% assign publishes = site.posts | map: "year" | flatten | uniq %}
-
-{% comment %} Determine the maximum number of posts in any Publish group {% endcomment %}
-{% assign max_count = 0 %}
-{% for pub in publishes %}
-  {% capture condition %}post.year contains "{{ pub }}"{% endcapture %}
-  {% assign posts_for_pub = site.posts | where_exp: "post", condition %}
-  {% if posts_for_pub.size > max_count %}
-    {% assign max_count = posts_for_pub.size %}
-  {% endif %}
-{% endfor %}
+{% comment %} Collect unique years from posts, sort descending {% endcomment %}
+{% assign years = site.posts | map: "year" | uniq | sort | reverse %}
 
 <ul class="taxonomy__index">
-  {% for i in (1..max_count) reversed %}
-    {% for pub in publishes %}
-      {% capture condition %}post.year contains "{{ pub }}"{% endcapture %}
-      {% assign posts_for_pub = site.posts | where_exp: "post", condition %}
-      {% if posts_for_pub.size == i %}
-        <li>
-          <a href="#{{ pub | slugify | downcase }}">
-            <strong>{{ pub }}</strong>
-            <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
+  {% for year in years %}
+    {% assign posts_for_year = site.posts | where: "year", year %}
+    <li>
+      <a href="#{{ year }}">
+        <strong>{{ year }}</strong>
+        <span class="taxonomy__count">{{ posts_for_year.size }}</span>
+      </a>
+    </li>
   {% endfor %}
 </ul>
 
-{% comment %} Output each Publish section sorted by count {% endcomment %}
-{% for i in (1..max_count) reversed %}
-  {% for pub in publishes %}
-    {% capture condition %}post.year contains "{{ pub }}"{% endcapture %}
-    {% assign posts_for_pub = site.posts | where_exp: "post", condition %}
-    {% if posts_for_pub.size == i %}
-      <section id="{{ pub | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ pub }}</h2>
-        <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in posts_for_pub %}
-            {% include archive-single.html type=page.entries_layout %}
-          {% endfor %}
-        </div>
-        <a href="#page-title" class="back-to-top">
-          {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
-        </a>
-      </section>
-    {% endif %}
-  {% endfor %}
+{% comment %} Output sections for each year in descending order {% endcomment %}
+{% for year in years %}
+  {% assign posts_for_year = site.posts | where: "year", year | sort: "date" | reverse %}
+  <section id="{{ year }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ year }}</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in posts_for_year %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">
+      {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;
+    </a>
+  </section>
 {% endfor %}
