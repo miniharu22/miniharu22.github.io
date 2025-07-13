@@ -20,7 +20,7 @@ layout: archive
 <ul class="taxonomy__index">
   {% for i in (1..max_count) reversed %}
     {% for pub in publishes %}
-      {% capture condition %}post.Publish contains "{{ pub }}"{% endcapture %}
+      {% capture condition %}post.year contains "{{ pub }}"{% endcapture %}
       {% assign posts_for_pub = site.posts | where_exp: "post", condition %}
       {% if posts_for_pub.size == i %}
         <li>
@@ -37,7 +37,7 @@ layout: archive
 {% comment %} Output each Publish section sorted by count {% endcomment %}
 {% for i in (1..max_count) reversed %}
   {% for pub in publishes %}
-    {% capture condition %}post.Publish contains "{{ pub }}"{% endcapture %}
+    {% capture condition %}post.year contains "{{ pub }}"{% endcapture %}
     {% assign posts_for_pub = site.posts | where_exp: "post", condition %}
     {% if posts_for_pub.size == i %}
       <section id="{{ pub | slugify | downcase }}" class="taxonomy__section">
