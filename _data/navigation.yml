@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: Device Paper 
+  - title: Paper Archive 
     sublinks:
-      - title: Paper List
+      - title: List of Studied Papers
         url: /Device_Paper_Review/
       - title: Keyword Index
         url: /tags/
